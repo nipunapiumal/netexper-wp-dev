@@ -1,0 +1,376 @@
+.ova-service {
+	position: relative;
+	&:hover {
+		.image-service {
+			&:before {
+				@include transaction( transform, 0.5s, ease);
+				-webkit-transform: scale(1,1);
+			    transform: scale(1,1);
+			    -webkit-transform-origin: bottom center;
+			    transform-origin: bottom center;
+			}
+			img {
+				@include transaction( transform, 0.5s, ease);
+				transform: scale(1.05); 
+			}
+		}
+		.content-service-wrapper {
+            .icon {
+				@include transaction( all, 0.5s, ease);
+				background-color: #fff; 
+				i,svg,path {
+					@include transaction( all, 0.5s, ease);
+					color: var(--primary); 
+					fill: var(--primary);
+				}
+			}
+			.content-service {
+	            &:after {
+					@include transaction( all, 0.5s, ease);
+					-webkit-transform: scaleY(1);
+				    transform: scaleY(1);
+				}
+				.title {
+					@include transaction( all, 0.5s, ease);
+					color: #fff; 
+				}
+				.description {
+    				@include transaction( all, 0.5s, ease);
+    				color: #fff;
+    			}
+			}
+		}
+	}
+
+	.image-service {
+		position: relative;
+		overflow: hidden; 
+		&:before {
+			@include transaction( transform, 0.5s, ease);
+		    position: absolute;
+		    content: "";
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    background-color: #000;
+		    opacity: 0.3; 
+		    -webkit-transform: scale(1,0);
+		    transform: scale(1,0);
+		    -webkit-transform-origin: top center;
+		    transform-origin: top center;
+		    z-index: 1; 
+		}
+        img {
+        	vertical-align: middle;
+        	width: 100%;
+        	@include transaction( transform, 0.5s, ease);
+        	transform: scale(1); 
+        }
+	}
+    
+    .content-service-wrapper {
+    	position: relative;
+    	.icon {
+    		@include transaction( all, 0.5s, ease);
+	    	position: absolute;
+	    	top: -70px;
+	    	right: 20px;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			width: 70px;
+			height: 70px;
+			background-color: var(--primary);
+			z-index: 2; 
+	        i,svg,path {
+	        	@include transaction( all, 0.5s, ease);
+	        	display: inline-flex;
+	         	font-size: 48px;
+	         	width: 1em;
+	         	height: 1em;
+	         	fill: #fff;
+	         	color: #fff;
+	         	transform: scale(1);  
+	        }
+		}
+        .content-service {
+        	position: relative;
+			overflow: hidden; 
+			background-color: #fff;
+			margin-left: 20px;
+		    margin-right: 20px;
+		    margin-top: -20px;
+		    padding: 25px 60px;
+		    box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
+		    z-index: 1; 
+		    @media (max-width: 420px) {
+                padding: 25px;
+		    }
+		    &:after {
+		    	@include transaction( all, 0.5s, ease);
+		    	position: absolute;
+			    content: "";
+			    top: 0;
+			    left: 0;
+			    right: 0;
+			    height: 100%;
+			    background-color: var(--primary);
+			    -webkit-transform-origin: top;
+			    transform-origin: top;
+			    -webkit-transform-style: preserve-3d;
+			    transform-style: preserve-3d;
+			    -webkit-transform: scaleY(0);
+			    transform: scaleY(0);
+		    }
+	        .title {
+	        	@include transaction( all, 0.5s, ease);
+	        	margin: 0; 
+	        	z-index: 1;
+                position: relative;
+	        	text-align: center;
+	            font-weight: 800;
+	            font-size: 20px;
+	            line-height: 1.2;  
+	        }
+	        .description {
+				@include transaction( all, 0.5s, ease);
+				position: relative;
+				z-index: 1;
+				margin: 0;
+				color: var(--text);
+			}
+		}
+    }
+
+    //template2
+    &.ova-service-template2 {
+    	text-align: right;
+    	.image-service {
+    		img {
+    			filter: grayscale(100%);
+    		}
+			.triangle-topleft-1 {
+				@include transaction( all, 0.3s, ease);  
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 30%;
+		        height: 60%;
+				opacity: 0.5;
+				background: linear-gradient( 270deg, var(--primary) 50%, var(--secondary) 100%);
+				clip-path: polygon(100% 0, 0 100%, 0 0);
+			}
+			.triangle-topleft-2 {
+	            @include transaction( all, 0.3s, ease);
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 20%;
+		        height: 50%;
+				opacity: 0.5;
+				background: linear-gradient( 180deg, var(--primary) 30%, var(--secondary) 100%);
+				clip-path: polygon(0 100%, 100% 100%, 100% 0);
+			}
+    	}
+    	.content-service-wrapper {
+            .content-service {
+	    		top: -90px; 
+	    		right: -70px; 
+	    		max-width: 370px;
+	    		margin: 0;
+	    		padding: 30px 45px;
+			    display: inline-flex;
+			    align-items: center;
+			    justify-content: center; 
+			    @media (max-width: 767px) {
+			    	top: -50px;
+			    	right: 0;
+			    }
+			    @media (max-width: 500px) {
+			    	flex-direction: column;
+			    	padding: 25px;
+			    }
+			    .title { 
+		            margin-right: 30px; 
+		            text-align: left; 
+		            @media (max-width: 500px) {
+				    	margin-right: 0; 
+				    	margin-bottom: 15px; 
+				    }
+		        }
+		        a {
+		        	z-index: 2;
+		        }
+			    .icon {
+			    	position: static;
+					@include transaction( all, 0.3s, ease);
+					min-width: 56px;
+					width: 56px;
+					height: 56px;
+					background-color: var(--secondary);
+					border-radius: 50%;
+			        i,svg,path {
+			        	@include transaction( all, 0.3s, ease);
+			        	display: inline-flex;
+			         	font-size: 15px;
+			         	color: #fff; 
+			        }
+				}
+	    	}
+    	}
+    }
+
+    //template3
+    &.ova-service-template3 {
+    	&:hover {
+    		.content-service-wrapper {
+    			.content-service {
+    				border-bottom: 1px solid var(--secondary);
+    			}
+    			.icon {
+    				background-color: var(--secondary);
+    				i {
+    					color: #fff;
+    				}
+    			}
+    		}
+    		.main-icon {
+    			@include transaction( all, 0.5s, ease);
+    			background-color: var(--secondary); 
+    			i {
+    				transition: all .3s ease; 
+    				color: #fff;
+    			}
+    		}
+    	}
+    	.main-icon {
+    		@include transaction( all, 0.5s, ease);
+    		position: relative;
+    		display: inline-flex;
+    		justify-content: center;
+    		align-items: center;
+    		width: 100px;
+    		height: 118px;
+    		background-color: #fff;
+    		z-index: 2;
+    		margin-left: 30px;
+    		border-radius: 50px 50px 0 0;
+    		i {
+    			transition: all .3s ease;
+    			display: inline-flex;
+    			color: var(--primary);
+    			font-size: 59px;
+    		}
+    	}
+    	.image-service {
+    		margin-top: -40px;
+    		&:before {
+    			opacity: 0.06;
+    		}
+    	}
+    	.content-service-wrapper {
+    		.content-service {
+    			margin: 0;
+    			padding: 28px 45px 25px 0;
+    			background-color: transparent;
+    			border-bottom: 1px solid rgba(255,255,255,0.2);
+    			box-shadow: none;
+    			.title {
+    				text-align: left;
+    				font-size: 22px;
+    				font-weight: 700;
+    				color: #fff;
+    			}
+    		}
+    		.icon {
+    			top: unset;
+    			bottom: 0;
+    			right: 0;
+    			width: 45px;
+    			height: 45px;
+    			background-color: #fff; 
+    			i {
+    				font-size: 16px;
+    				color: var(--primary);
+    			}
+    		}
+    	}
+    }
+
+    //template4
+    &.ova-service-template4 {
+    	&:hover {
+    		.content-service-wrapper {
+    			.icon {
+    				background-color: var(--secondary);
+    				i {
+    					color: #fff;
+    				}
+    			}
+    		}
+    	}
+    	.image-service {
+    		&:before {
+    			background-color: var(--heading);
+    			opacity: 0.7;
+    		}
+    	}
+    	.content-service-wrapper {
+    		.content-service {
+    			margin-top: -90px;
+    			margin-right: 25px;
+    			margin-left: 25px;
+    			padding: 70px 30px 30px 30px;
+    			background-color: #fff;
+    			border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+
+    			-webkit-mask-image: url('assets/img/elementor/mask-rectangle-service.svg');
+			    mask-image: url('assets/img/elementor/mask-rectangle-service.svg');
+			    -webkit-mask-size: cover;
+			    mask-size: cover;
+			    -webkit-mask-position: center;
+			    mask-position: center;
+			    -webkit-mask-repeat: no-repeat;
+			    mask-repeat: no-repeat;
+			    @media (max-width: 767px) {
+			    	margin-left: 20px;
+			    	margin-right: 20px;
+			    	padding: 60px 25px 25px 25px;
+			    }
+			    .mask {
+		        	@include transaction( all, 0.3s, ease);
+		        	position: absolute;
+		        	content: "";
+		        	width: 100%;
+		        	height: 100%;
+		        	left: 0;
+		        	top: 0;
+		        	opacity: 0.13;
+		    		background-position: center;
+			        background-size: auto;
+			        background-repeat: no-repeat;
+			        z-index: 1;
+		        }
+    			.title {
+    				margin: 0 0 10px 0;
+    				text-align: left;
+    				font-size: 22px;
+    			}
+    			.description {
+    				line-height: 1.6;
+    			}
+    		}
+    		.icon {
+    			top: -20px;
+    			right: 50px;
+    			width: 60px;
+    			height: 60px;
+    			border-radius: 50%;
+    			i {
+    				font-size: 16px;
+    			}
+    		}
+    	}
+    }
+}

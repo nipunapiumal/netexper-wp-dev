@@ -1,0 +1,85 @@
+$flaticon_new-font: "flaticon_new";
+
+@font-face {
+    font-family: $flaticon_new-font;
+    src: url("./flaticon_new.ttf?25be246c2e47b6656da9ef76598ba236") format("truetype"),
+url("./flaticon_new.woff?25be246c2e47b6656da9ef76598ba236") format("woff"),
+url("./flaticon_new.woff2?25be246c2e47b6656da9ef76598ba236") format("woff2"),
+url("./flaticon_new.eot?25be246c2e47b6656da9ef76598ba236#iefix") format("embedded-opentype"),
+url("./flaticon_new.svg?25be246c2e47b6656da9ef76598ba236#flaticon_new") format("svg");
+}
+
+i[class^="flaticon-new-"]:before, i[class*=" flaticon-new-"]:before {
+    font-family: flaticon_new !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_new-map: (
+    "right-arrows": "\f101",
+    "shopping-cart": "\f102",
+    "peace-sign": "\f103",
+    "dollar": "\f104",
+    "right": "\f105",
+    "link": "\f106",
+    "paper-plane": "\f107",
+    "pen": "\f108",
+    "padlock": "\f109",
+    "list": "\f10a",
+    "category": "\f10b",
+    "money": "\f10c",
+    "graduation": "\f10d",
+    "calendar": "\f10e",
+    "increase": "\f10f",
+);
+
+.flaticon-new-right-arrows:before {
+    content: map-get($flaticon_new-map, "right-arrows");
+}
+.flaticon-new-shopping-cart:before {
+    content: map-get($flaticon_new-map, "shopping-cart");
+}
+.flaticon-new-peace-sign:before {
+    content: map-get($flaticon_new-map, "peace-sign");
+}
+.flaticon-new-dollar:before {
+    content: map-get($flaticon_new-map, "dollar");
+}
+.flaticon-new-right:before {
+    content: map-get($flaticon_new-map, "right");
+}
+.flaticon-new-link:before {
+    content: map-get($flaticon_new-map, "link");
+}
+.flaticon-new-paper-plane:before {
+    content: map-get($flaticon_new-map, "paper-plane");
+}
+.flaticon-new-pen:before {
+    content: map-get($flaticon_new-map, "pen");
+}
+.flaticon-new-padlock:before {
+    content: map-get($flaticon_new-map, "padlock");
+}
+.flaticon-new-list:before {
+    content: map-get($flaticon_new-map, "list");
+}
+.flaticon-new-category:before {
+    content: map-get($flaticon_new-map, "category");
+}
+.flaticon-new-money:before {
+    content: map-get($flaticon_new-map, "money");
+}
+.flaticon-new-graduation:before {
+    content: map-get($flaticon_new-map, "graduation");
+}
+.flaticon-new-calendar:before {
+    content: map-get($flaticon_new-map, "calendar");
+}
+.flaticon-new-increase:before {
+    content: map-get($flaticon_new-map, "increase");
+}

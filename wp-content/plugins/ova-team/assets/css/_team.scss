@@ -1,0 +1,70 @@
+.elementor-widget-ova_team {
+	text-align: center;
+}
+.ova-team {
+	display: inline-block;
+	position: relative;
+
+	@keyframes glide1 {
+		0% {
+		    transform: translate(0);
+		}
+		50% {
+			background-color: var(--primary);   
+		    transform: translate(54px);
+		}
+	    100% {
+		    transform: translate(0);
+		}
+    }
+
+    @keyframes glide2 {
+		0% {
+		    transform: translate(0);
+		}
+		50% {
+			background-color: var(--secondary);
+		    transform: translateY(70px);
+		}
+	    100% {
+		    transform: translate(0);
+		}
+    }
+	
+	.content {
+		display: grid;
+		  
+		&.four_column{
+		  	grid-template-columns: 1fr 1fr 1fr 1fr;	
+		  	grid-gap: 30px;
+		  	@media( max-width: 1200px ){
+				grid-template-columns: 1fr 1fr;
+			}
+			@media( max-width: 767px ){
+				grid-template-columns: auto;	
+			}
+		}
+
+		&.three_column{
+		  	grid-template-columns: 1fr 1fr 1fr;
+		  	grid-column-gap: 100px;	
+		  	grid-row-gap: 50px;
+		  	@media( max-width: 1200px ){
+				grid-template-columns: 1fr 1fr;
+			}
+			@media( max-width: 767px ){
+				grid-template-columns: auto;	
+			}
+		}
+
+		&.two_column{
+		  	grid-template-columns: 1fr 1fr;
+		  	grid-gap: 100px;
+		  	grid-row-gap: 50px;
+		  	@media( max-width: 767px ){
+				grid-template-columns: auto;	
+			}
+		}
+		
+	}
+}

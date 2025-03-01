@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "flaticon_new";
+    src: url("./flaticon_new.ttf?25be246c2e47b6656da9ef76598ba236") format("truetype"),
+url("./flaticon_new.woff?25be246c2e47b6656da9ef76598ba236") format("woff"),
+url("./flaticon_new.woff2?25be246c2e47b6656da9ef76598ba236") format("woff2"),
+url("./flaticon_new.eot?25be246c2e47b6656da9ef76598ba236#iefix") format("embedded-opentype"),
+url("./flaticon_new.svg?25be246c2e47b6656da9ef76598ba236#flaticon_new") format("svg");
+}
+
+i[class^="flaticon-new-"]:before, i[class*=" flaticon-new-"]:before {
+    font-family: flaticon_new !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-new-right-arrows:before {
+    content: "\f101";
+}
+.flaticon-new-shopping-cart:before {
+    content: "\f102";
+}
+.flaticon-new-peace-sign:before {
+    content: "\f103";
+}
+.flaticon-new-dollar:before {
+    content: "\f104";
+}
+.flaticon-new-right:before {
+    content: "\f105";
+}
+.flaticon-new-link:before {
+    content: "\f106";
+}
+.flaticon-new-paper-plane:before {
+    content: "\f107";
+}
+.flaticon-new-pen:before {
+    content: "\f108";
+}
+.flaticon-new-padlock:before {
+    content: "\f109";
+}
+.flaticon-new-list:before {
+    content: "\f10a";
+}
+.flaticon-new-category:before {
+    content: "\f10b";
+}
+.flaticon-new-money:before {
+    content: "\f10c";
+}
+.flaticon-new-graduation:before {
+    content: "\f10d";
+}
+.flaticon-new-calendar:before {
+    content: "\f10e";
+}
+.flaticon-new-increase:before {
+    content: "\f10f";
+}

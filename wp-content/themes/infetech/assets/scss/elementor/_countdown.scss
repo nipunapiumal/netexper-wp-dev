@@ -1,0 +1,118 @@
+.ova-warp-countdown {
+	@media( max-width: 1024px ){
+		text-align: center;
+	}
+
+	.ova-content-countdown {
+		display: inline-block;
+		text-align: center;
+
+		.ova-countdown-title {
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 30px;
+			color: var(--heading);
+		}
+
+		.ova-countdown {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+
+			.ova-countdown-item {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items:center;
+				background-color: #fff;
+				border: 1px solid #1d17291a;
+				width: 100px;
+				min-width: 100px;
+				height: 100px;
+
+				@media( max-width: 1300px ){
+					width: 80px;
+					min-width: 80px;
+					height: 80px;
+				}
+				@media( max-width: 450px ){
+					margin: 0 10px 10px 0;
+					width: 60px;
+					min-width: 60px;
+					height: 60px;
+				}
+
+				.ova-wrap-time-item{
+					.ova-number {
+						display: block;
+						font-weight: 800;
+						font-size: 48px;
+						line-height: 1.2;
+						color: var(--heading);
+						margin:-10px 0 0 0;
+						width: 80px;
+
+						@media( max-width: 1300px ){
+							margin: -5px 0 0 0;
+							font-size: 35px;
+							width: 58px;
+						}
+						@media( max-width: 450px ){
+							margin: 0;
+							font-size: 28px;
+							width: 45px;
+						}
+					}
+
+					.countdown-label {
+						display: block;
+						font-size: 16px;
+						line-height: 1.2;
+						font-weight: 800;
+						color: var(--heading);
+						margin: 0;
+
+						@media( max-width: 450px ){
+							font-size: 14px;
+						}
+					}
+				}
+			}
+			.countdown-separator {
+				display: inline-block;
+				font-size: 50px;
+				color: var(--heading);
+				margin: 0 20px;
+
+				@media( max-width: 1300px ){
+					margin: 0 10px;
+				}
+				@media( max-width: 450px ){
+					display: none;
+				}
+			}
+		}
+
+		.ova-message {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 1.2;
+			text-align: center;
+			margin: 20px auto 0;
+			background-color: #FC3352;
+			color: #fff;
+			border-radius: 0;
+			padding: 24px 50px 19px;
+			text-transform: uppercase;
+			display: inline-block;
+
+			@media screen and (max-width: 450px) {
+				padding: 15px 20px 10px;
+			}
+			@media screen and (max-width: 320px) {
+				width: 100%;
+			}
+		}
+	}
+}

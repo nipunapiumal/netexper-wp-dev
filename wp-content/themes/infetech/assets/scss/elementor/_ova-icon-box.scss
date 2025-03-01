@@ -1,0 +1,370 @@
+.ova-icon-box {
+	@include transaction( all, 0.3s, ease);
+	position: relative;
+	z-index: 1;
+	padding: 85px 30px 40px 30px;
+	background-color: #15101e;
+    text-align: center;
+    &:after {
+		@include transaction( all, 0.5s, ease);
+	    position: absolute;
+	    content: "";
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    height: 100%;
+	    background-color: #fff;
+	    -webkit-transform: scaleY(0);
+	    transform: scaleY(0);
+	}
+
+    &:hover {
+    	&:after {
+    		@include transaction( all, 0.5s, ease);
+    		-webkit-transform: scaleY(1);
+    		transform: scaleY(1);
+    		background-color: #fff;
+    	}
+       	.icon {
+       		&:after {
+                @include transaction( all, 0.3s, ease); 
+                opacity: 1;
+       		}
+       		i,svg,path {
+       			@include transaction( all, 0.3s, ease);
+       			color: #fff;
+       			fill: #fff;
+       		}
+       	}
+       	.title {
+       		@include transaction( all, 0.3s, ease);
+       		color: var(--heading);
+       	}
+       	.description {
+       		@include transaction( all, 0.3s, ease);
+       		color: var(--text);
+       	}
+    }
+
+	.icon {
+		@include transaction( all, 0.3s, ease);
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: -60px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 120px;
+		height: 120px;
+		background-color: #15101e;
+		border-radius: 50%;
+		margin-bottom: 30px;
+		overflow: hidden;
+		z-index: 1;
+		&:after {
+		    @include transaction( all, 0.4s, ease-in-out);
+		    position: absolute;
+		    content: "";
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    height: 100%;
+		    opacity: 0;
+		    background-color: var(--primary);
+		}
+        i,svg,path {
+        	@include transaction( all, 0.3s, ease);
+        	display: inline-flex;
+         	font-size: 62px;
+         	width: 1em; 
+         	height: 1em; 
+         	color: #825cb2;
+         	fill: #825cb2;
+         	z-index: 1;
+         	position: relative;
+        }
+	}
+	.title {
+		@include transaction( all, 0.3s, ease);
+		margin: 0;
+		padding-bottom: 30px; 
+        font-weight: 800;
+		font-size: 20px;
+		line-height: 1.2;
+		text-all: capitalize;
+		color: #fff;
+		z-index: 4;
+		position: relative;
+	}
+	.description {
+		@include transaction( all, 0.3s, ease);
+		margin: 0;
+        font-weight: 400;
+		font-size: 15px;
+		line-height: 1.6;
+		color: #b0a9c;
+		z-index: 1;
+		position: relative;
+	}
+ 
+	// template2
+	&.ova-icon-box-template2 {
+		padding: 38px;
+		text-align: left;
+		background-color: #fff;
+
+		&:after {
+		    background-color: var(--primary);
+		    -webkit-transform-origin: bottom;
+		    transform-origin: bottom;
+		    -webkit-transform-style: preserve-3d;
+		    transform-style: preserve-3d;
+		}
+
+        &:hover {
+        	.mask {
+        		@include transaction( all, 0.3s, ease);
+        		opacity: 0.1; 
+        	}
+        	.icon {
+                &:after {
+                    -webkit-transform: scaleY(1);
+        		    transform: scaleY(1);
+                }
+                i {
+                 	color: var(--primary);
+                }
+        	}
+        	.title {
+        		color: #fff;
+        	}
+        	.description {
+        		color: #e1d6ff;
+        	}
+        }
+
+        &.ova-icon-box-active {
+         	&:after {
+	    		@include transaction( all, 0.5s, ease);
+	    		-webkit-transform: scaleY(1);
+	    		transform: scaleY(1);
+	    	}
+        	.mask {
+        		@include transaction( all, 0.3s, ease);
+        		opacity: 0.1; 
+        	}
+        	.icon {
+        		background-color: #fff;
+                &:after {
+                    -webkit-transform: scaleY(1);
+        		    transform: scaleY(1);
+                }
+                i {
+                 	transform: scale(0.9);
+                 	color: var(--primary);
+                }
+        	}
+        	.title {
+        		color: #fff;
+        	}
+        	.description {
+        		color: #e1d6ff;
+        	}
+        }
+
+        .mask {
+        	@include transaction( all, 0.3s, ease);
+        	position: absolute;
+        	content: "";
+        	width: 100%;
+        	height: 100%;
+        	left: 0;
+        	top: 0;
+        	opacity: 0;
+    		background-position: center;
+	        background-size: cover;
+	        background-repeat: no-repeat;
+	        z-index: 1;
+        }
+
+		.icon {
+           position: relative;
+           top: 0;
+           left: 0;
+           transform: unset;
+           width: 104px;
+		   height: 104px;
+		   background-color: var(--primary);
+		   &:after {
+			    background-color: #fff;
+			    -webkit-transform-origin: top;
+			    transform-origin: top;
+			    -webkit-transform-style: preserve-3d;
+			    transform-style: preserve-3d;
+			    -webkit-transform: scaleY(0);
+			    transform: scaleY(0);
+			}
+		    i {
+		   	    font-size: 54px;
+		   	    color: #fff;
+		    }
+		}
+
+		.title {
+			font-size: 22px;
+			color: var(--heading);
+		}
+
+		.description {
+			font-size: 16px; 
+			padding-bottom: 30px;
+			color: var(--text);
+		}
+
+		// version2 of template2
+		&.version2 {
+			overflow: hidden;
+			border-radius: 10px;
+			padding: 100px 25px;
+			&.ova-icon-box-active {
+				&:hover {
+					.icon {
+                        i{
+	                    	color: var(--secondary);
+	                    }
+					}
+				}
+				&:after {
+					background-color: var(--heading);
+				}
+				.icon {
+					width: 65px;
+					height: 65px;
+                    background: linear-gradient(269.32deg, rgba(236, 110, 173, 0.51) 5.35%, rgba(79, 144, 201, 0) 56.32%, #3494E6 185.29%);
+                    i{
+                    	font-size: 40px;
+                    	color: #fff;
+                    }
+                    &:after {
+                    	background-color: #fff;
+                    }
+				}
+			}
+			.icon {
+				border-radius: 5px;
+			}
+			.box-info {
+				position: relative;
+				z-index: 2;
+				padding: 12px 15px;
+				border-radius: 10px;
+				background: linear-gradient(269.32deg, rgba(236, 110, 173, 0.51) 5.35%, rgba(79, 144, 201, 0) 56.32%, #3494E6 185.29%);
+			}
+            .title {
+            	padding-bottom: 12px;
+            }
+            .description {
+            	padding: 0;
+            }
+		}
+	}
+
+	// template4
+	&.ova-icon-box-template4 {
+		padding: 40px 35px;
+		background-color: #fff;
+		overflow: hidden; 
+
+		.triangle-topleft-1 {
+			@include transaction( all, 0.3s, ease);  
+			position: absolute;
+			top: 0;
+			left: -30px;
+			width: 0;
+			height: 0;
+			opacity: 0;
+			border-top: 130px solid #7746f1;
+			border-right: 80px solid transparent;
+			z-index: 3;
+		}
+		.triangle-topleft-2 {
+            @include transaction( all, 0.3s, ease);
+			position: absolute;
+			top: 0;
+			left: -30px;
+			width: 0;
+			height: 0;
+			opacity: 0;
+			border-top: 250px solid #6730fd;
+			border-right: 150px solid transparent;
+			z-index: 2;
+		}
+		&:after { 
+			background-color: var(--primary);
+			-webkit-transform: scaleX(0);
+	        transform: scaleX(0);
+		    -webkit-transform-origin: right;
+		    transform-origin: right;
+		    -webkit-transform-style: preserve-3d;
+		    transform-style: preserve-3d;
+		}
+
+        &:hover {
+            .triangle-topleft-1, .triangle-topleft-2 {
+            	@include transaction( all, 0.3s, ease);
+            	-webkit-transition-delay: 0.3s;    
+			    transition-delay: 0.3s;
+                opacity: 1;
+                left: 0;
+            }
+        	&:after {
+        		-webkit-transform: scaleX(1);
+	            transform: scaleX(1);
+        	}
+            i {
+            	@include transaction( all, 0.3s, ease);
+             	color: #fff;
+            }
+        	.title {
+        		color: #fff;
+        	}
+        }
+
+		i {
+			@include transaction( all, 0.3s, ease);
+			display: inline-flex;
+			line-height: 1;
+	   	    font-size: 64px;
+	   	    color: var(--primary);
+	   	    padding-bottom: 20px;
+	   	    position: relative;
+	   	    z-index: 4;
+		}
+		.title {
+			font-size: 18px;
+			color: var(--heading);
+			padding-bottom: 0;
+		}
+	}
+
+}
+
+//template3
+.ova-icon-box-template3 {
+	.icon {
+		@include transaction( all, 0.3s, ease);
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+        i {
+        	@include transaction( all, 0.3s, ease);
+        	display: inline-flex;
+         	font-size: 64px;
+         	color: #FFF;
+         	background-color: var(--primary);
+         	padding: 34px;
+        }
+	}
+}

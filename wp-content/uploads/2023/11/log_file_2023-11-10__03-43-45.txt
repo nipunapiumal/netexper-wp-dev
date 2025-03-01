@@ -1,0 +1,55 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://netexper.com.au
+Data file = /home/netexperau/public_html/wp-content/themes/infetech/install-resource/demo-import/demo-content.xml
+Widget file = /home/netexperau/public_html/wp-content/themes/infetech/install-resource/demo-import/widgets.wie
+Customizer file = /home/netexperau/public_html/wp-content/themes/infetech/install-resource/demo-import/customize.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Sidebar : 
+
+Search - No Title - Imported
+Categories - Categories - Imported
+Archives - Archives - Imported
+Tag Cloud - Tags - Imported
+
+WooCommerce Sidebar : 
+
+Product Search - No Title - Imported
+Product Categories - Categories - Imported
+Products by Rating list - Products - Imported
+Filter Products by Price - Filter By Price - Imported
+Product Tag Cloud - Product Tags - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

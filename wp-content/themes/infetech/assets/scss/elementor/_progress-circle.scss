@@ -1,0 +1,41 @@
+.ova-progress-circle-wrapper {
+    text-align: center;
+
+    .ova-progress-circle {
+        display: inline-flex;
+        position: relative;
+        &:before {
+            position: absolute;
+            content: "";
+            left: 50%;
+            top: 50%;
+            width: 87%;
+            height: 87%;
+            transform: translate(-50%, -50%);
+            border: 2px solid var(--primary);
+            border-radius: 50%; 
+        }
+        .percent {
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 30px;
+            color: var(--heading);
+            line-height: 1;
+            transform: translate(-50%, -50%);
+            strong {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .title { 
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 15px; 
+    }
+
+}

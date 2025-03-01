@@ -1,0 +1,190 @@
+.ova-service-4 {
+	@include transaction( all, 0.5s, ease);
+	position: relative;
+	text-align: center;
+	padding: 45px 50px;
+	background-color: #fff;
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	transform: scale(1);
+	z-index: 1; 
+	&:before {
+		position: absolute;
+		content: ""; 
+		width: 100%;
+		height: 100%;
+		opacity: 0.48;
+		background-color: #1d1729;
+		top: 0;
+		left: 0;
+		z-index: -1; 
+	}
+	@media (max-width: 767px) {
+		padding: 30px;
+	}
+	&:hover {
+		@include transaction( all, 0.5s, ease);
+		transform: scale(0.95);
+		.text-number-wrapper {
+			&:before {
+				@include transaction( all, 0.5s, ease);
+				width: 140%; 
+				height: 140%;
+			}
+			.text-number {
+				@include transaction( all, 0.5s, ease);
+			}
+		}
+	}
+    
+    .text-number-wrapper {
+    	position: relative; 
+    	display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+    	width: 80px; 
+		height: 80px;
+        background: linear-gradient( 0deg, rgb(95,45,238) 0%, rgb(184,130,252) 100%);
+        margin-bottom: 35px; 
+        &:before {
+        	@include transaction( all, 0.5s, ease);
+			position: absolute;
+			content: ""; 
+			width: 130%;
+			height: 130%;
+			border: 1px solid #cacaca;
+			opacity: 0.5; 
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%); 
+			border-radius: 50%;
+		}
+        .text_number {
+        	@include transaction( all, 0.5s, ease);
+			background-color: #fff; 
+			min-width: 70px; 
+			width: 70px; 
+			height: 70px;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+			text-transform: uppercase;
+			color: var(--heading); 
+			font-weight: 800; 
+			font-size: 30px;   
+		}
+    }
+
+    .title {
+    	@include transaction( all, 0.5s, ease);
+    	margin: 0; 
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 1.2;
+        color: #fff;  
+        padding-bottom: 25px;   
+    }
+
+    .description {
+    	@include transaction( all, 0.5s, ease);
+    	margin: 0; 
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.4;  
+        color: #fff;  
+    }
+
+    &.service-template2{
+    	padding: 70px 45px;
+    	position: relative;
+    	overflow: hidden;
+    	border-radius: 0px 70px 0px 70px;
+    	@include transaction( all, 0.2s, ease);
+
+    	@media(max-width: 350px){
+    		padding: 50px 20px;
+    	}
+
+    	&:hover{
+    		@include transaction( all, 0.2s, ease);
+    		border-radius: 0px;
+    		transform: scale(1);
+    		&:before{
+    			background-color: #220044;
+    		}
+    		.title{
+    			color: #fff;
+    			background: linear-gradient(95.02deg, #054DF7 -2.32%, #5E53E1 49.68%, #A880E7 92.23%);
+    		}
+
+    		.text-number-wrapper{
+    			background: #fff;
+    			@include transaction( all, 0.5s, ease);
+
+    			.text_number{
+    				color: #B879E9;
+    				@include transaction( all, 0.3s, ease);
+    			}
+    		}
+    	}
+
+    	&.active{
+    		border-radius: 0px;
+    		transform: scale(1);
+    		&:before{
+    			background-color: #220044;
+    		}
+    		.title{
+    			color: #fff;
+    			background: linear-gradient(95.02deg, #054DF7 -2.32%, #5E53E1 49.68%, #A880E7 92.23%);
+    		}
+
+    		.text-number-wrapper{
+    			background: #fff;
+    			.text_number{
+    				color: #B879E9;
+    			}
+    		}
+    	}
+
+    	.text-number-wrapper{
+    		margin: 0;
+    		position: absolute;
+		    top: 35px;
+		    left: 30px;
+		    background: linear-gradient(279.42deg, rgba(101, 45, 143, 0) -71.91%, rgba(0, 82, 248, 0.51) -28.36%, #B879E9 60.31%);
+			border-radius: 28px;
+			width: 56px;
+			height: 56px;
+    		@include transaction( all, 0.5s, ease);
+
+		    &:before{
+		    	content: unset;
+		    }
+		    .text_number{
+		    	background-color: transparent;
+		    	font-size: 25px;
+		    	font-weight: 700;
+		    	color: #fff;
+    			@include transaction( all, 0.8s, ease);
+		    }
+
+		    @media(max-width: 350px){
+	    	    top: 10px;
+    			left: 20px;
+		    }
+    	}
+    	.title{
+    		font-size: 20px;
+    		background-color: #fff;
+    		color: #000;
+    		font-weight: 600;
+    		padding: 25px;
+    		border-radius: 10px;
+    		margin-bottom: 30px;
+    	}
+    }
+}

@@ -1,0 +1,98 @@
+/* template 5*/
+.item-team-5 {
+
+	&:hover {
+		.img {
+			img {
+				transform: unset;
+				mix-blend-mode: normal;
+			}
+			.img-wrapper {
+                &:before {
+                	transition: all .5s ease;
+					opacity: 1;
+				}
+			}
+			.list-icon {
+				-webkit-transform: translateX(-50%);
+				transform: translateX(-50%); 
+				opacity: 1;
+	    		visibility: visible;
+				bottom: 20px;	
+			}
+		}
+	}
+
+	.img {
+
+		.img-wrapper {
+    		&:before {
+    			transition: all .5s ease; 
+	    		position: absolute;
+	    		content: "";
+	    		top: 0;
+	    		left: 0;
+	    		width: 100%;
+	    		height: 100%;
+	    		background: rgba(29, 23, 41, 0.75);
+	    		opacity: 0;
+	    	}
+    	}
+
+		.list-icon {
+			transition: all .5s ease;  
+			position :absolute;
+			bottom: 0;
+			left: 50%;
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%); 
+			right: unset;
+			opacity: 0;
+	    	visibility: hidden;
+			background-color: transparent;
+			box-shadow: none;
+			padding: 10px 25px;
+			ul {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				.item {
+					&:not(:last-child) {
+						margin: 0 10px 0 0;   
+					}
+					a {
+						transition: all .3s ease;
+   						display: flex;
+		   				align-items: center;
+		   				justify-content: center;
+                        width: 43px;
+                    	height: 43px;
+                    	background-color: var(--secondary);
+	   					border-radius: 50%;
+	   					i {
+	   						display: inline-flex;
+                    		font-size: 16px; 
+                    		color: #fff;
+	   					}
+	   					&:hover {
+	   						transition: all .3s ease;
+	   						background-color: var(--primary);
+	   					}
+   					}
+				}
+			}
+		}
+	}
+
+	.info {
+		padding: 25px 30px;
+		.name-job {
+            .name {
+				font-size: 22px;
+			}
+			.job {
+				font-weight: 400; 
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+$flaticon_infetech-font: "flaticon_infetech";
+
+@font-face {
+    font-family: $flaticon_infetech-font;
+    src: url("./flaticon_infetech.ttf?020575faad93c0fd3321429742ccd01e") format("truetype"),
+url("./flaticon_infetech.woff?020575faad93c0fd3321429742ccd01e") format("woff"),
+url("./flaticon_infetech.woff2?020575faad93c0fd3321429742ccd01e") format("woff2"),
+url("./flaticon_infetech.eot?020575faad93c0fd3321429742ccd01e#iefix") format("embedded-opentype"),
+url("./flaticon_infetech.svg?020575faad93c0fd3321429742ccd01e#flaticon_infetech") format("svg");
+}
+
+i[class^="flaticon-infetech-"]:before, i[class*=" flaticon-infetech-"]:before {
+    font-family: flaticon_infetech !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_infetech-map: (
+    "cloud-computing": "\f101",
+    "placeholder": "\f102",
+    "envelope": "\f103",
+    "recovery": "\f104",
+    "shield": "\f105",
+    "target": "\f106",
+    "computer": "\f107",
+    "idea": "\f108",
+    "target-1": "\f109",
+    "database": "\f10a",
+    "corporation": "\f10b",
+    "quotation": "\f10c",
+    "communications": "\f10d",
+    "presentation": "\f10e",
+);
+
+.flaticon-infetech-cloud-computing:before {
+    content: map-get($flaticon_infetech-map, "cloud-computing");
+}
+.flaticon-infetech-placeholder:before {
+    content: map-get($flaticon_infetech-map, "placeholder");
+}
+.flaticon-infetech-envelope:before {
+    content: map-get($flaticon_infetech-map, "envelope");
+}
+.flaticon-infetech-recovery:before {
+    content: map-get($flaticon_infetech-map, "recovery");
+}
+.flaticon-infetech-shield:before {
+    content: map-get($flaticon_infetech-map, "shield");
+}
+.flaticon-infetech-target:before {
+    content: map-get($flaticon_infetech-map, "target");
+}
+.flaticon-infetech-computer:before {
+    content: map-get($flaticon_infetech-map, "computer");
+}
+.flaticon-infetech-idea:before {
+    content: map-get($flaticon_infetech-map, "idea");
+}
+.flaticon-infetech-target-1:before {
+    content: map-get($flaticon_infetech-map, "target-1");
+}
+.flaticon-infetech-database:before {
+    content: map-get($flaticon_infetech-map, "database");
+}
+.flaticon-infetech-corporation:before {
+    content: map-get($flaticon_infetech-map, "corporation");
+}
+.flaticon-infetech-quotation:before {
+    content: map-get($flaticon_infetech-map, "quotation");
+}
+.flaticon-infetech-communications:before {
+    content: map-get($flaticon_infetech-map, "communications");
+}
+.flaticon-infetech-presentation:before {
+    content: map-get($flaticon_infetech-map, "presentation");
+}

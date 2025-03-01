@@ -1,0 +1,100 @@
+.ova-icon-list {
+	display: grid;
+	grid-gap: 40px;
+
+	&.two_column {
+        grid-template-columns: 1fr 1fr;
+	    @media (max-width: 767px) {
+	    	grid-template-columns: auto;
+	    }
+	}
+
+	.item {
+		display: flex;
+		display: -webkit-flex;
+		align-items: center;
+		&:hover {
+			.icon {
+               @include transaction( all, 0.3s, ease);
+               -webkit-transform: scale(1.1);  
+               transform: scale(1.1);     
+                i {
+                	@include transaction( all, 0.3s, ease);
+                }
+			} 
+		}
+
+		.icon {
+			@include transaction( all, 0.3s, ease); 
+			position: relative;
+			display: inline-block;
+			border-radius: 50%;
+			width: 52px;
+			height: 52px;
+			background-color:#f8f2ff ;
+			margin-right: 50px;
+
+			i {
+				@include transaction( all, 0.3s, ease);
+				position: relative;
+				right: -20px;
+				top: 10px;
+                font-size: 64px;
+                line-height: 1;
+                color: var(--primary);
+			}
+		}
+
+		.title {
+			margin: 0;
+            font-weight: 600;
+            font-size: 20;
+            line-height: 1.4;
+            a {
+            	color: var(--heading);
+            }
+		}
+	}
+
+    //template2 
+    &.ova-icon-list-template2 {
+        .item {
+        	&:hover {
+        		.text-number-wrapper {
+        			.text-number {
+        				@include transaction( all, 0.3s, ease);
+        			}
+        		}
+        	}
+        	.text-number-wrapper {
+        		display: flex;
+			    justify-content: center;
+			    align-items: center;
+        		min-width: 64px;
+        		height: 64px;
+        		background-image: -moz-linear-gradient( 0deg, rgb(95,45,238) 0%, rgb(184,130,252) 100%);
+				background-image: -webkit-linear-gradient( 0deg, rgb(95,45,238) 0%, rgb(184,130,252) 100%);
+				background-image: -ms-linear-gradient( 0deg, rgb(95,45,238) 0%, rgb(184,130,252) 100%);
+				margin-right: 30px;
+				border-radius: 50%; 
+				.text-number {
+					@include transaction( all, 0.3s, ease); 
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					min-width: 54px;
+					height: 54px;
+					background-color: #fff; 
+					font-size: 16px;
+					font-weight: 600;
+					color: var(--primary);
+					border-radius: 50%; 
+				}
+        	}
+        	.text {
+        		margin: 0;
+        		font-weight: 500;
+        	}
+        }
+    }
+}

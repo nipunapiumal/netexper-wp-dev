@@ -1,0 +1,68 @@
+// social icon
+.elementor-grid-item {
+	.elementor-social-icon {
+		position: relative;
+		overflow: hidden;
+		&:hover {
+			&:before {
+               @include transaction( all, 0.5s, ease);
+				-webkit-transform: scaleY(1);
+			    transform: scaleY(1);
+			}
+		}
+		&:before {
+	    	@include transaction( all, 0.5s, ease);
+	    	position: absolute;
+		    content: "";
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    height: 100%;
+		    border-radius: 50%;
+		    background-color: var(--primary);
+		    -webkit-transform-origin: top;
+		    transform-origin: top;
+		    -webkit-transform-style: preserve-3d;
+		    transform-style: preserve-3d;
+		    -webkit-transform: scaleY(0);
+		    transform: scaleY(0);
+		    z-index: -1; 
+		}
+	}
+}
+
+//button
+.elementor-button-wrapper {
+	.elementor-button {
+		position: relative;
+		overflow: hidden;
+		&:hover {
+			&:before {
+               @include transaction( all, 0.5s, ease);
+				-webkit-transform: scaleY(1);
+			    transform: scaleY(1);
+			}
+		}
+		&:before {
+	    	@include transaction( all, 0.5s, ease);
+	    	position: absolute;
+		    content: "";
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    height: 100%;
+		    width: 101%;
+		    background-color: var(--primary);
+		    -webkit-transform-origin: top;
+		    transform-origin: top;
+		    -webkit-transform-style: preserve-3d;
+		    transform-style: preserve-3d;
+		    -webkit-transform: scaleY(0);
+		    transform: scaleY(0); 
+		}
+		.elementor-button-text {
+			z-index: 1;
+			letter-spacing: 1px;
+		}
+	}
+}

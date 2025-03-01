@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "flaticon_infetech";
+    src: url("./flaticon_infetech.ttf?020575faad93c0fd3321429742ccd01e") format("truetype"),
+url("./flaticon_infetech.woff?020575faad93c0fd3321429742ccd01e") format("woff"),
+url("./flaticon_infetech.woff2?020575faad93c0fd3321429742ccd01e") format("woff2"),
+url("./flaticon_infetech.eot?020575faad93c0fd3321429742ccd01e#iefix") format("embedded-opentype"),
+url("./flaticon_infetech.svg?020575faad93c0fd3321429742ccd01e#flaticon_infetech") format("svg");
+}
+
+i[class^="flaticon-infetech-"]:before, i[class*=" flaticon-infetech-"]:before {
+    font-family: flaticon_infetech !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-infetech-cloud-computing:before {
+    content: "\f101";
+}
+.flaticon-infetech-placeholder:before {
+    content: "\f102";
+}
+.flaticon-infetech-envelope:before {
+    content: "\f103";
+}
+.flaticon-infetech-recovery:before {
+    content: "\f104";
+}
+.flaticon-infetech-shield:before {
+    content: "\f105";
+}
+.flaticon-infetech-target:before {
+    content: "\f106";
+}
+.flaticon-infetech-computer:before {
+    content: "\f107";
+}
+.flaticon-infetech-idea:before {
+    content: "\f108";
+}
+.flaticon-infetech-target-1:before {
+    content: "\f109";
+}
+.flaticon-infetech-database:before {
+    content: "\f10a";
+}
+.flaticon-infetech-corporation:before {
+    content: "\f10b";
+}
+.flaticon-infetech-quotation:before {
+    content: "\f10c";
+}
+.flaticon-infetech-communications:before {
+    content: "\f10d";
+}
+.flaticon-infetech-presentation:before {
+    content: "\f10e";
+}

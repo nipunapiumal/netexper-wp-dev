@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ck6tw8');
+  src:  url('fonts/icomoon.eot?ck6tw8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ck6tw8') format('truetype'),
+    url('fonts/icomoon.woff?ck6tw8') format('woff'),
+    url('fonts/icomoon.svg?ck6tw8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-phone:before {
+  content: "\e913";
+}
+.icomoon-play-button:before {
+  content: "\e90c";
+}
+.icomoon-send:before {
+  content: "\e915";
+}
+.icomoon-local:before {
+  content: "\e900";
+}
+.icomoon-chat:before {
+  content: "\e91a";
+}
+.icomoon-arroba:before {
+  content: "\e908";
+}
+.icomoon-business-strategy:before {
+  content: "\e912";
+}
+.icomoon-user:before {
+  content: "\e901";
+}
+.icomoon-comment:before {
+  content: "\e902";
+}
+.icomoon-global:before {
+  content: "\e91b";
+}
+.icomoon-software-development:before {
+  content: "\e916";
+}
+.icomoon-project-management:before {
+  content: "\e917";
+}
+.icomoon-innovation:before {
+  content: "\e90f";
+}
+.icomoon-web-design:before {
+  content: "\e903";
+}
+.icomoon-cyber-security:before {
+  content: "\e904";
+}
+.icomoon-digital-marketing:before {
+  content: "\e905";
+}
+.icomoon-technical-support:before {
+  content: "\e906";
+}
+.icomoon-new-product:before {
+  content: "\e907";
+}
+.icomoon-technology-1:before {
+  content: "\e90d";
+}
+.icomoon-network:before {
+  content: "\e90e";
+}
+.icomoon-technology:before {
+  content: "\e914";
+}
+.icomoon-engineering:before {
+  content: "\e910";
+}
+.icomoon-nanotechnology:before {
+  content: "\e911";
+}
+.icomoon-social-media:before {
+  content: "\e918";
+}
+.icomoon-tool:before {
+  content: "\e919";
+}

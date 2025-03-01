@@ -1,0 +1,272 @@
+.ova-geometry1 {
+	overflow: hidden;
+	.geometry1 { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.5;
+		background-image: linear-gradient( 360deg, var(--primary) 20%, var(--secondary) 100%);
+        clip-path: polygon(15% 0, 0% 0%, 0 100%);
+	}
+	.geometry2 { 
+		content: ""; 
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 0;
+		height: 0;
+		opacity: 0.5;
+		border-bottom: 287px solid var(--secondary);
+		border-left: 80px solid transparent;
+	}
+}
+
+.ova-geometry2 {
+	overflow: hidden;
+	.geometry3 { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		right: 80px;
+		width: 160px;
+		height: 150%;
+		opacity: 0.5;
+		background-color: var(--secondary);
+		transform: rotate(30deg);
+		transform-origin: top right;
+	}
+	.geometry4 { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		right: 265px;
+		width: 160px;
+		height: 150%;
+		opacity: 0.92;
+		transform: rotate(30deg);
+		transform-origin: top right;
+		background-color: rgb(21, 16, 30);
+		mix-blend-mode: color-dodge;
+	}
+}
+
+.ova-geometry3 {
+	overflow: hidden;
+	.geometry5 { 
+		content: ""; 
+		position: absolute;
+		bottom: 0;
+		left: -150px;
+		width: 150px;
+		height: 150%;
+		opacity: 0.5;
+		background-image: linear-gradient( 360deg, var(--primary) 40%, var(--secondary) 100%);
+		transform: rotate(40deg);
+		transform-origin: bottom right;
+	}
+}
+
+.ova-geometry4 {
+	overflow: hidden;
+	.geometry6 { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		left: 170px;
+		width: 80px;
+		height: 150%;
+		opacity: 0.92;
+		background-color: rgb(21, 16, 30);
+		mix-blend-mode: color-dodge;
+		transform: rotate(30deg);
+		transform-origin: top right;
+	}
+	.geometry7 { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		left: 78px;
+		width: 80px;
+		height: 150%;
+		opacity: 0.4;
+		transform: rotate(30deg);
+		transform-origin: top right;
+		background-color: rgb(255, 255, 255);
+		mix-blend-mode: soft-light;
+	}
+	.geometry8 { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		right: 60px;
+		width: 80px;
+		height: 150%;
+		opacity: 0.4;
+		background-color: rgb(255, 255, 255);
+		mix-blend-mode: soft-light;
+		transform: rotate(30deg);
+		transform-origin: top right;
+		@media (max-width: 767px) {
+			display: none;
+		}
+	}
+	.geometry9 { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		right: 152px;
+		width: 80px;
+		height: 150%;
+		opacity: 0.92;
+		transform: rotate(30deg);
+		transform-origin: top right;
+		background-color: rgb(21, 16, 30);
+		mix-blend-mode: color-dodge;
+		@media (max-width: 767px) {
+			display: none;
+		}
+	}
+	.geometry10 { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 14%;
+		height: 100%;
+		opacity: 0.5;
+		background-image: linear-gradient( 0deg, rgb(95,45,238) 0%, rgb(169,116,250) 100%);
+		clip-path: polygon(100% 0, 100% 100%, 0 0%);
+	}
+}
+
+.ova-geometry5 {
+	overflow: hidden;
+	.geometry11 { 
+		content: ""; 
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 500px;
+		height: 150%;
+		opacity: 0.5;
+		background: linear-gradient(279.42deg, rgba(101, 45, 143, 0) -71.91%, rgba(0, 82, 248, 0.255) -28.36%, rgba(184, 121, 233, 0.5) 60.31%);
+		clip-path: polygon(61% 0, 100% 0, 67% 100%, 0% 100%);
+		transform: translate(-50%, -50%) rotate(15deg);
+		transform-origin: bottom right;
+	}
+}
+
+.ova-geometry6 {
+	overflow: hidden;
+	.geometry12 { 
+		content: ""; 
+		position: absolute;
+		top: 0%;
+		right: 0%;
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		background: linear-gradient(279.42deg, rgba(101, 45, 143, 0) -71.91%, rgba(0, 82, 248, 0.255) -28.36%, rgba(184, 121, 233, 0.5) 60.31%);
+		clip-path: polygon(75% 0, 100% 0, 55% 100%, 0% 140%);
+		transform-origin: bottom right;
+
+		&:before{
+			content: "";
+		    display: block;
+		    width: 110px;
+		    height: 110px;
+		    background: linear-gradient(35.46deg, rgba(35, 23, 164, 0.4) 9.44%, rgba(42, 105, 254, 0.4) 40.93%, rgba(159, 119, 222, 0.4) 72.78%);
+		    position: absolute;
+		    top: 5%;
+		    right: 15%;
+		    border-radius: 50%;
+		    animation: load 15s linear infinite;
+		}
+	}
+
+	.circle{
+		content: ""; 
+		position: absolute;
+		top: 0%;
+		right: 0%;
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		&:before{
+			content: "";
+		    display: block;
+		    width: 207px;
+		    height: 207px;
+		    background: linear-gradient(35.46deg, rgba(35, 23, 164, 0.4) 9.44%, rgba(42, 105, 254, 0.4) 40.93%, rgba(159, 119, 222, 0.4) 72.78%);
+		    position: absolute;
+		    top: 25%;
+		    left: 7%;
+		    border-radius: 50%;
+		    animation: load 30s linear infinite;
+		}
+
+		&:after{
+			content: "";
+		    display: block;
+		    width: 60px;
+		    height: 60px;
+		    background: linear-gradient(35.46deg, rgba(35, 23, 164, 0.4) 9.44%, rgba(42, 105, 254, 0.4) 40.93%, rgba(159, 119, 222, 0.4) 72.78%);
+		    position: absolute;
+		    bottom: 6%;
+		    right: 3%;
+		    border-radius: 50%;
+		    animation: load 15s linear infinite;
+		}
+	}
+
+	@keyframes load {
+	  	to { transform: rotate(3turn); }
+	}
+}
+
+.ova-geometry-header-banner {
+	overflow: hidden;
+	.geometry-header { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 245px;
+		height: 60%;
+		opacity: 0.5;
+		background-image: linear-gradient( 0deg, rgb(95,45,238) 0%, rgb(169,116,250) 100%);
+		clip-path: polygon(100% 0, 100% 100%, 0 0%);
+	}
+}
+
+.ova-geometry-revslider1 {
+	overflow: hidden;
+	.geometry-revslider-left { 
+		content: ""; 
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 20%;
+		height: 50%;
+		opacity: 0.5;
+		z-index: 2;
+		background-image: linear-gradient( 0deg, rgb(95,45,238) 0%, rgb(169,116,250) 100%);
+		clip-path: polygon(100% 0, 100% 100%, 0 0%);
+	}
+	.geometry-revslider-right { 
+		content: ""; 
+		position: absolute;
+		bottom: -150px;
+		left: -7%;
+		width: 14%;
+		height: 150%;
+		opacity: 0.5;
+		z-index: 2;
+		background-image: linear-gradient( 0deg, rgb(95,45,238) 0%, rgb(169,116,250) 100%);
+		transform: rotate(20deg);
+		transform-origin: bottom right;
+	}
+}

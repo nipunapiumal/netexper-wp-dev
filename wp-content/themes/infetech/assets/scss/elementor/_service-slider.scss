@@ -1,0 +1,201 @@
+.ova-services-slider {
+	.services-slider {
+		.slick-list {
+			.slick-track {
+				padding: 50px 0;
+			}
+		}
+        
+        .slick-slide {
+
+        	&.slick-current {
+				position: relative;
+				.item {
+                    .item-box {
+						background-color: #1d1729;
+
+						i {
+							color: var(--secondary);
+						}
+
+						.sub-title {
+							color: #FFF;
+						}
+
+						img {
+		  					position: absolute;
+		  					top: -95px;
+		  					right: -50px;
+		  				}
+					}
+					i.ovaicon-download {
+						display: block;
+					    color: #FFF;
+					    font-size: 8px;
+					    position: absolute;
+					    bottom: -10px;
+					    left: 50%;
+					    margin-left: -4px;
+					}
+				}
+
+				&:before {
+					position: absolute;
+					content: "";
+					width: 0;
+					height: 0;
+					border-left: 15px solid transparent;
+					border-right: 15px solid transparent;
+					border-top: 15px solid #1d1729;
+			    	bottom: -15px;
+				    left: 50%;
+				    margin-left: -15px;
+				}
+
+			}
+
+			.item {
+				.item-box {
+				    display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					background-color: #FFF;
+					box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.07);
+	  				padding: 50px;
+	  				margin: 0 20px;
+	  				position: relative;
+	  				overflow: hidden;
+	  				-webkit-transition: all .3s ease;
+					-moz-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					transition: all .3s ease;
+					@media (max-width: 767px) {
+						margin: 0 10px;
+					}
+
+	  				i {
+					    font-size: 50px;
+						color: var(--primary);
+						line-height: 1;
+						-webkit-transition: all .3s ease;
+						-moz-transition: all .3s ease;
+						-o-transition: all .3s ease;
+						transition: all .3s ease;
+						z-index: 2;
+	  				}
+
+	  				.sub-title {
+	  					font-size: 20px;
+	  					z-index: 2;
+	  					color: var(--heading);
+	  					margin: 0;
+	  					text-align: center;
+	  					-webkit-transition: all .3s ease;
+						-moz-transition: all .3s ease;
+						-o-transition: all .3s ease;
+						transition: all .3s ease;
+	  				}
+
+	  				img {
+	  					position: absolute;
+	  					z-index: 1;
+	  					top: -100%;
+	    				right: -100%;
+	    				width: 250px;
+	    				height: 250px;
+	    				object-fit: cover;
+	    				mix-blend-mode: luminosity;
+	  					-webkit-transition: all .7s ease;
+						-moz-transition: all .7s ease;
+						-o-transition: all .7s ease;
+						transition: all .7s ease;
+	  				}
+				}
+
+				i.ovaicon-download {
+					display: none;
+				}
+
+			}
+        }
+
+	}
+
+	.services-slider-content {
+		.content {
+			text-align: center;
+
+			.content-title {
+				font-size: 30px;
+				font-weight: bold;
+				line-height: 1.2;
+				color: var(--heading);
+				margin: 0 0 20px;
+			}
+
+			.description {
+				font-size: 16px;
+				line-height: 1.875;
+				font-weight: 400;
+				color: var(--text);
+				margin: 0 0 35px;
+				padding: 0 20%;
+
+				@media screen and (max-width: 1024px) {
+					padding: 0;
+				}
+			}
+
+			a.services-btn {
+				position: relative;
+			    display: inline-block;
+			    font-size: 14px;
+			    font-weight: bold;
+				text-transform: uppercase;
+				line-height: 1.2;
+			    background-color: var(--primary);
+			    font-size: 15px;
+			    padding: 23px 50px 20px;
+			    color: #fff;
+			    fill: #fff;
+			    text-align: center;
+			    -webkit-transition: all .3s;
+			    -o-transition: all .3s;
+			    transition: all .3s;
+
+			    &:before {
+		    	    transition: all 0.5s ease;
+				    -moz-transition: all 0.5s ease;
+				    -webkit-transition: all 0.5s ease;
+				    -o-transition: all 0.5s ease;
+				    position: absolute;
+				    content: "";
+				    top: 0;
+				    left: 0;
+				    right: 0;
+				    height: 100%;
+				    width: 100%;
+				    background-color: var(--heading);
+				    -webkit-transform-origin: top;
+				    transform-origin: top;
+				    -webkit-transform-style: preserve-3d;
+				    transform-style: preserve-3d;
+				    -webkit-transform: scaleY(0);
+				    transform: scaleY(0);
+			    }
+
+			    .btn-text {
+			    	position: relative;
+			    	z-index: 1;
+			    }
+
+			    &:hover {
+			    	&:before {
+		    		    transform: scaleY(1);
+			    	}
+			    }
+			}
+		}
+	}
+}

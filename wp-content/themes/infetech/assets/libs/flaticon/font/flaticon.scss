@@ -1,0 +1,253 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0dd0fc2b5a05b0bd0a043adac203a5c7") format("truetype"),
+url("./flaticon.woff?0dd0fc2b5a05b0bd0a043adac203a5c7") format("woff"),
+url("./flaticon.woff2?0dd0fc2b5a05b0bd0a043adac203a5c7") format("woff2"),
+url("./flaticon.eot?0dd0fc2b5a05b0bd0a043adac203a5c7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0dd0fc2b5a05b0bd0a043adac203a5c7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "email": "\f101",
+    "clock": "\f102",
+    "send": "\f103",
+    "telephone-call": "\f104",
+    "phone-call": "\f105",
+    "left": "\f106",
+    "right-arrow": "\f107",
+    "check": "\f108",
+    "checked": "\f109",
+    "share": "\f10a",
+    "play": "\f10b",
+    "loupe": "\f10c",
+    "shopping-cart": "\f10d",
+    "arrow-right": "\f10e",
+    "right-arrow-1": "\f10f",
+    "web": "\f110",
+    "android": "\f111",
+    "television": "\f112",
+    "design": "\f113",
+    "lamp": "\f114",
+    "brain": "\f115",
+    "briefcase": "\f116",
+    "team-leader": "\f117",
+    "bar-chart": "\f118",
+    "technology": "\f119",
+    "innovation": "\f11a",
+    "innovation-1": "\f11b",
+    "web-development": "\f11c",
+    "programming": "\f11d",
+    "network": "\f11e",
+    "security-system": "\f11f",
+    "cloud": "\f120",
+    "research-and-development": "\f121",
+    "security-system-1": "\f122",
+    "analytics": "\f123",
+    "database": "\f124",
+    "cloud-computing": "\f125",
+    "consulting": "\f126",
+    "programming-1": "\f127",
+    "cloud-computing-1": "\f128",
+    "dashboard": "\f129",
+    "server": "\f12a",
+    "mental-health": "\f12b",
+    "education": "\f12c",
+    "circuit": "\f12d",
+    "stock-market": "\f12e",
+    "cyber": "\f12f",
+    "mobile-banking": "\f130",
+    "data-security": "\f131",
+    "quality": "\f132",
+    "innovation-2": "\f133",
+    "developer": "\f134",
+    "recovery": "\f135",
+    "database-1": "\f136",
+    "software-development": "\f137",
+    "customer-service": "\f138",
+    "laptop": "\f139",
+);
+
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.flaticon-telephone-call:before {
+    content: map-get($flaticon-map, "telephone-call");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-left:before {
+    content: map-get($flaticon-map, "left");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon-map, "checked");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-arrow-right:before {
+    content: map-get($flaticon-map, "arrow-right");
+}
+.flaticon-right-arrow-1:before {
+    content: map-get($flaticon-map, "right-arrow-1");
+}
+.flaticon-web:before {
+    content: map-get($flaticon-map, "web");
+}
+.flaticon-android:before {
+    content: map-get($flaticon-map, "android");
+}
+.flaticon-television:before {
+    content: map-get($flaticon-map, "television");
+}
+.flaticon-design:before {
+    content: map-get($flaticon-map, "design");
+}
+.flaticon-lamp:before {
+    content: map-get($flaticon-map, "lamp");
+}
+.flaticon-brain:before {
+    content: map-get($flaticon-map, "brain");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon-map, "briefcase");
+}
+.flaticon-team-leader:before {
+    content: map-get($flaticon-map, "team-leader");
+}
+.flaticon-bar-chart:before {
+    content: map-get($flaticon-map, "bar-chart");
+}
+.flaticon-technology:before {
+    content: map-get($flaticon-map, "technology");
+}
+.flaticon-innovation:before {
+    content: map-get($flaticon-map, "innovation");
+}
+.flaticon-innovation-1:before {
+    content: map-get($flaticon-map, "innovation-1");
+}
+.flaticon-web-development:before {
+    content: map-get($flaticon-map, "web-development");
+}
+.flaticon-programming:before {
+    content: map-get($flaticon-map, "programming");
+}
+.flaticon-network:before {
+    content: map-get($flaticon-map, "network");
+}
+.flaticon-security-system:before {
+    content: map-get($flaticon-map, "security-system");
+}
+.flaticon-cloud:before {
+    content: map-get($flaticon-map, "cloud");
+}
+.flaticon-research-and-development:before {
+    content: map-get($flaticon-map, "research-and-development");
+}
+.flaticon-security-system-1:before {
+    content: map-get($flaticon-map, "security-system-1");
+}
+.flaticon-analytics:before {
+    content: map-get($flaticon-map, "analytics");
+}
+.flaticon-database:before {
+    content: map-get($flaticon-map, "database");
+}
+.flaticon-cloud-computing:before {
+    content: map-get($flaticon-map, "cloud-computing");
+}
+.flaticon-consulting:before {
+    content: map-get($flaticon-map, "consulting");
+}
+.flaticon-programming-1:before {
+    content: map-get($flaticon-map, "programming-1");
+}
+.flaticon-cloud-computing-1:before {
+    content: map-get($flaticon-map, "cloud-computing-1");
+}
+.flaticon-dashboard:before {
+    content: map-get($flaticon-map, "dashboard");
+}
+.flaticon-server:before {
+    content: map-get($flaticon-map, "server");
+}
+.flaticon-mental-health:before {
+    content: map-get($flaticon-map, "mental-health");
+}
+.flaticon-education:before {
+    content: map-get($flaticon-map, "education");
+}
+.flaticon-circuit:before {
+    content: map-get($flaticon-map, "circuit");
+}
+.flaticon-stock-market:before {
+    content: map-get($flaticon-map, "stock-market");
+}
+.flaticon-cyber:before {
+    content: map-get($flaticon-map, "cyber");
+}
+.flaticon-mobile-banking:before {
+    content: map-get($flaticon-map, "mobile-banking");
+}
+.flaticon-data-security:before {
+    content: map-get($flaticon-map, "data-security");
+}
+.flaticon-quality:before {
+    content: map-get($flaticon-map, "quality");
+}
+.flaticon-innovation-2:before {
+    content: map-get($flaticon-map, "innovation-2");
+}
+.flaticon-developer:before {
+    content: map-get($flaticon-map, "developer");
+}
+.flaticon-recovery:before {
+    content: map-get($flaticon-map, "recovery");
+}
+.flaticon-database-1:before {
+    content: map-get($flaticon-map, "database-1");
+}
+.flaticon-software-development:before {
+    content: map-get($flaticon-map, "software-development");
+}
+.flaticon-customer-service:before {
+    content: map-get($flaticon-map, "customer-service");
+}
+.flaticon-laptop:before {
+    content: map-get($flaticon-map, "laptop");
+}

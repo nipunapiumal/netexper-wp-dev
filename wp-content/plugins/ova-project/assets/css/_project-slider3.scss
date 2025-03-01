@@ -1,0 +1,168 @@
+.ova-project-slider-3 {
+	.slide-project-3 {
+
+		.item {
+			padding: 5px;
+			&:hover {
+				.ova-media {
+					.content {     
+                        .title {
+                        	-webkit-transition: all .3s ease; 
+						    transition: all .3s ease;
+                        }
+                        .sub_title {
+                        	-webkit-transition: all .3s ease; 
+						    transition: all .3s ease;
+                        }
+					}
+					.project-img {
+                        img {
+                        	-webkit-transition: all .3s ease; 
+                        	transition: all .3s ease;
+                        	-webkit-transform: scale(1.05);
+                            transform: scale(1.05);
+                        }  
+					}
+					.learn-more-btn {
+						-webkit-transition: all .3s ease; 
+						transition: all .3s ease; 
+						color: #fff;
+						background-color: var(--primary);
+					}
+				}
+			}
+			.ova-media {
+				position: relative;
+				overflow: hidden;
+				padding: 45px;
+				box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.07);
+				@media (max-width: 767px) {
+                	padding: 45px 28px;
+                }
+
+				.content { 
+					position: relative;
+					.title {
+						-webkit-transition: all .3s ease; 
+						transition: all .3s ease;
+                        margin: 0; 
+                        font-weight: 800; 
+                        font-size: 30px;
+                        line-height: 1.4;   
+                        padding-bottom: 5px; 
+                        color: var(--heading);
+                        @media (max-width: 767px) {
+                        	font-size: 24px;
+                        }
+					}
+					.sub_title {
+						-webkit-transition: all .3s ease; 
+						transition: all .3s ease;
+                        margin: 0; 
+                        font-weight: 800; 
+                        font-size: 14px;
+                        line-height: 1.4;
+                        padding-bottom: 30px;
+                        text-transform: uppercase;
+                        color: var(--secondary); 
+					}
+				}
+
+				.project-img {
+					position: relative;
+				    overflow: hidden; 
+				    margin-bottom: 25px;
+
+					img {
+						height: 350px; 
+						object-fit: cover;
+						-webkit-transition: all .3s ease; 
+						transition: all .3s ease; 
+						-webkit-transform: scale(1);
+                        transform: scale(1);
+                        @media (max-width: 460px) {
+                        	height: 270px;
+                        }
+					}
+				}
+
+				.excerpt {
+					margin: 0 0 24px 0;
+				}
+
+				.learn-more-btn {
+					-webkit-transition: all .3s ease; 
+					transition: all .3s ease; 
+					display: inline-block;
+					font-size: 15px;
+					line-height: 1.2;
+					letter-spacing: 1px;
+					color: var(--heading);
+					padding: 18px 36px;
+					background-color: #efeafd;
+					text-align: center;
+					text-transform: uppercase;
+				}
+			}
+		}
+
+		.owl-dots{
+			text-align: center;
+			margin-top: 40px;
+			.owl-dot{
+				outline: none;
+				span{
+					width: 16px;
+					height: 4px;
+					margin: 5px;
+					background: #b3b0ba;
+					display: block;
+					-webkit-backface-visibility: visible;
+					transition: opacity .2s ease;
+				}
+				&.active{
+					span{
+						background: var(--primary);
+					}
+				}
+			}
+		}
+
+	}
+}
+
+.elementor-widget-container {
+
+	#ova-project-slider3-control {
+		button {
+			transition: all .3s ease;
+			width: 46px;
+			height: 46px;
+			display: inline-flex;
+			justify-content: center; 
+			align-items: center;
+			background-color: #fff;
+			border: 2px solid #d5d4d7;
+			padding: 0; 
+			border-radius: 50%;
+			&.owl-prev {
+				margin-right: 12px;
+			}
+			i {
+				display: inline-flex;
+				font-size: 12px;  
+				color: var(--text);		
+			}
+			&:hover {
+				transition: all .3s ease;
+				border: 2px solid var(--primary);
+				i {
+					transition: all .3s ease;
+					color: var(--primary); 
+				} 
+			}
+			
+		}
+	}
+
+}

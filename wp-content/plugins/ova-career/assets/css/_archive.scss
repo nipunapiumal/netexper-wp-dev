@@ -1,0 +1,23 @@
+.ova_archive_career{
+    
+    // archive page
+	&.archive_career {
+		margin: 120px 0;
+		@media (max-width: 1024px) {
+			margin: 90px 0;
+		}
+	}
+
+	.career-content{
+    	display: grid;
+    	grid-gap: 30px;
+    	
+    	&.two_column {
+    		grid-template-columns: 1fr 1fr;
+    		@media (max-width: 1024px) {
+	    		grid-template-columns: auto;
+	    	}
+    	}
+	}
+
+}

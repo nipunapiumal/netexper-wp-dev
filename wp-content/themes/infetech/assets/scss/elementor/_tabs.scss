@@ -1,0 +1,110 @@
+.elementor-widget-tabs {
+	.elementor-tabs {
+		.elementor-tabs-wrapper{
+			flex-basis:32%;
+
+			@media(max-width: 1024px){
+				flex-basis:42%
+			}
+
+			.elementor-tab-title {
+				padding: 18px 40px;
+				background-color: #fff;
+				margin: 0 0 15px 0;
+
+				font-size: 22px;
+				font-weight: 700;
+				line-height: 1.4;
+				color: var(--heading);
+
+				@media(max-width: 1200px){
+					padding: 18px 30px;
+					font-size: 20px;
+				}
+				@media(max-width: 1024px){
+					font-size: 18px;
+				}
+
+				.ova-tab-icon{
+					display: inline-flex;
+					vertical-align: middle;
+
+					i{
+						font-size: 30px;
+						color: var(--primary);
+						display: inline-flex;
+						margin: 0 20px 0 0;
+
+						@media(max-width: 1200px){
+							font-size: 25px;
+							margin: 0 10px 0 0;
+						}
+						@media(max-width: 1024px){
+							font-size: 20px;
+						}
+					}
+				}
+
+				&.elementor-active{
+					border: 2px solid var(--primary);
+				}
+			}
+		}
+
+		.elementor-tabs-content-wrapper {
+			> .elementor-tab-mobile-title {
+				padding: 15px 10px;
+				font-size: 20px;
+				font-weight: 700;
+				line-height: 1;
+				background-color: #fff;
+				margin: 0 0 10px 0;
+				
+				.ova-tab-icon{
+					display: inline-block;
+					vertical-align: middle;
+					line-height: 1;
+
+					i{
+						display: inline-flex;
+						font-size: 25px;
+						padding: 5px;
+						border-radius: 50%;
+						color: var(--primary);
+						margin: 0 10px 0 0;
+					}
+				}
+				
+				.title{
+					display: inline-block;
+					vertical-align: middle;
+				}
+
+				&.elementor-active{
+					border: 2px solid var(--primary);
+				}
+
+				&:before {
+					margin: 10px 0 0;
+					font-size: 14px;
+					float: right;
+					content: "\f199";
+					font-family: ovaicon !important;
+				    font-style: normal;
+				    font-weight: normal !important;
+				    font-variant: normal;
+				    text-transform: none;
+				    line-height: inherit;
+				    -webkit-font-smoothing: antialiased;
+				    -moz-osx-font-smoothing: grayscale;
+				}
+
+				&.elementor-active {
+					&:before {
+						content: "\f19b";
+					}
+				}
+			}
+		}
+	}
+}

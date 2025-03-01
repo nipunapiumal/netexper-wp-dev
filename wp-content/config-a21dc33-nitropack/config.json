@@ -1,0 +1,34 @@
+{
+    "config_path": "8861c9a4fd66b728c1533e381dbf9489",
+    "netexper.com.au": {
+        "siteId": "uvRkSzAnTUqJToToXKcPWjzQGPKMCEoS",
+        "siteSecret": "aTwVXQ5c7cZHfcshhO2zUkH37A5nGYJmIHiKpJ72ahGr5GL7E2B1cfPgxSt6v0p7",
+        "blogId": 1,
+        "compression": true,
+        "webhookToken": "d6797013bfbc950103237414ef3007a3",
+        "home_url": "https:\/\/netexper.com.au",
+        "admin_url": "https:\/\/netexper.com.au\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isApoActive": false,
+        "isNginxHelperActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "isWoocommerceCacheHandlerActive": false,
+        "isWoocommerceActive": false,
+        "isAeliaCurrencySwitcherActive": false,
+        "isGeoTargetingWPActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.15.3",
+        "options_cache": {
+            "cache_handler_cache_handler": false,
+            "woocommerce_default_customer_address": "base",
+            "wc_aelia_currency_switcher": {
+                "ipgeolocation_enabled": null
+            }
+        },
+        "additional_domains": []
+    }
+}

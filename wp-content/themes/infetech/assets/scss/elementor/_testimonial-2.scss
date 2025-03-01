@@ -1,0 +1,218 @@
+.ova-testimonial-2{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    @media (max-width: 830px) {
+    	grid-template-columns: 15% 85%;
+		align-items: flex-start;
+	}
+	@media (max-width: 520px) {
+    	grid-template-columns: 0% 100%;
+	}
+    .slide-for {
+    	.slick-track {
+    		display: inline-block;
+    		margin: 0;
+    		width: 92px !important; 
+    		@media (max-width: 520px) {
+		    	display: none;
+			}
+    	}
+    	.slick-active {
+    		opacity: 1 !important;  
+    	}
+    	.slick-current {
+    		.small-img {
+    			img {
+    				transform: scale(1.1);  
+    			}
+    		}
+    	}
+        .small-img {
+        	position: relative;
+	        overflow: hidden;
+	        border-radius: 50%;
+	    	img{
+	    		transform: scale(1); 
+				display: block;
+				width: 92px;
+				height: 92px;
+				object-fit: cover;
+				border-radius: 50%;
+				@media (max-width: 1100px) {
+					width: 60px;
+					height: 60px;
+				}
+			}
+	    }
+    }
+
+	.slide-testimonials-2{
+		.client-info{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			@media (max-width: 830px) {
+				flex-direction: column;
+			}
+
+			.client{
+				position: relative;
+				border-radius: 50%;
+				@media (max-width: 830px) {
+					margin-bottom: 40px;
+				}
+				img{
+					display: block;
+					width: 408px;
+					height: 408px;
+					object-fit: cover;
+					border-radius: 50%;
+					@media (max-width: 1100px) {
+						width: 300px;
+						height: 300px;
+					}
+				}
+				.icon {
+					position: absolute;
+					right: -39px;
+					top: 50%;
+					border-radius: 50%;
+					transform: translateY(-50%);
+					width: 78px;
+					height: 78px;
+					display: inline-flex;
+					justify-content: center;
+					align-items: center ;
+					background-color: var(--secondary);
+					@media (max-width: 520px) {
+				    	right: 0;
+					}
+					i {
+						font-size: 25px;
+						color: #fff;
+						display: inline-flex;
+					}
+				}
+			}
+
+			.info {
+                flex: 0 0 50%;
+                .sub-title {
+					margin: 0 0 15px;
+					display: inline-block;
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 1.2;
+					color: #b0a9c0;
+					position: relative;
+					padding-left: 30px;
+
+					.underlined {
+						transition: all .3s ease;
+						position: absolute;
+						left: 0;
+						bottom: 50%;
+						transform: translateY(-50%); 
+						display: inline-block;
+						vertical-align: middle;
+						margin-right: 12px;
+						width: 16px;
+						height: 2px;
+						background-color: #fff;
+					}
+				}
+
+				.title {
+					margin: 0;
+					font-weight: 800;
+					font-size: 45px;
+					line-height: 1.2;
+					color: #fff;
+					padding-bottom: 35px;
+				}
+
+				p.ova-evaluate{
+					margin: 0;
+					font-size: 18px;
+					font-weight: 500;
+					color: #b0a9c0;
+					padding-bottom: 38px;
+				}
+
+				.name-job{
+					display: flex;
+					align-items: center;
+					.name{
+						margin: 0;
+						font-size: 20px;
+						line-height: 1.2;
+						font-weight: 800;
+						color: #fff;
+						letter-spacing: 0.2px;
+						padding-right: 25px;
+					}
+					.job{
+						margin: 0;
+						font-size: 14px;
+						line-height: 1.2;
+						font-weight: 500;
+						color: var(--secondary);
+					}
+				}		
+			}
+		}
+
+		.slick-prev, .slick-next {
+			@include transaction( all, 0.3s, ease);
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			padding: 25px;
+			border: 1px solid var(--text);
+			border-radius: 50%;
+			top: unset;
+			bottom: 0;
+			z-index: 1;
+			@media (max-width: 1100px) {
+				bottom: -62px;
+			}
+			@media (max-width: 520px) {
+		    	bottom: -92px;
+			}
+			&:before {
+				@include transaction( all, 0.3s, ease);
+				font-family: ovaicon !important;
+				font-size: 14px;
+				color: var(--text);
+			}
+			&:hover {
+				@include transaction( all, 0.3s, ease);
+				border: 1px solid #fff;
+				&:before {
+					@include transaction( all, 0.3s, ease);
+					color: #fff;
+				}
+			}
+		}
+
+		.slick-prev {
+			left: unset;
+			right: 62px;
+			&:before {
+				content: "\f120";
+				line-height: 0;
+			}
+		}
+
+		.slick-next {
+			right: 0;
+			&:before {
+				content: "\f124";
+				line-height: 0;
+			}
+		}
+
+	}
+
+}

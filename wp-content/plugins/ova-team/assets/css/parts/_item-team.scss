@@ -1,0 +1,190 @@
+.item-team {
+	position: relative;
+
+	&:hover {
+		.img {
+			img {
+				transition: all .5s ease;
+				mix-blend-mode: luminosity;
+				transform: scale(1.06); 
+			}
+			.list-icon {
+                transition: all .5s ease;
+				-webkit-transform: scaleX(1);
+				transform: scaleX(1);
+			}
+		}
+		.info {
+			transition: all .5s ease;
+			.share-button {
+				transition: all .5s ease;
+                i {
+                	transition: all .5s ease;
+                 	-webkit-transition-delay: 0.1s;
+				    transition-delay: 0.1s;
+				    -webkit-transform: scale(0.95) rotateY(360deg);
+				    transform: scale(0.95) rotateY(360deg);
+                }
+			}
+		}
+		.ova-line1 {
+			&:before {
+                animation : glide1 .95s 0s ease-in-out;
+	            animation-iteration-count: 1;
+			}
+		}
+		.line-wrapper {
+			.ova-line2 {
+				&:before {
+                    animation : glide2 .95s 0s ease-in-out;
+		            animation-iteration-count: 1;
+				}
+			}
+		}
+	}
+    
+    // decoration
+	.ova-line1 {
+   	    display: block;
+   	    position: relative; 
+   	    text-align: left;
+   	    margin-left: auto; 
+   	    margin-right: 0;
+	    margin-bottom: 20px; 
+	    width: 125px;
+	    height: 1px;
+	    background: #e4e0ee;
+	    top: 0;
+	    right: -20px;
+	    &:before {
+			content: "";
+			position: absolute;
+			width: 8px;
+			height: 8px;
+			bottom: -4px;
+			left: 50%;
+			background: var(--secondary);
+	    }
+    }
+    
+    .line-wrapper {
+    	position: absolute;
+    	right: -20px;
+    	top: 0;
+	   .ova-line2 {
+	   	    display: block;
+		    width: 1px;
+		    height: 140px;
+		    background: #e4e0ee;
+		    top: 0;
+		    right: 0;
+		    &:before {
+				content: "";
+				position: absolute;
+				width: 8px;
+				height: 8px;
+				left: -4px;
+				top: 50%;
+				background: var(--primary);
+		    }
+	    }
+    }
+    // end decoration
+
+	.img {
+		position: relative;    
+		background-color: var(--heading); 
+		.img-wrapper {
+			position: relative;
+			overflow: hidden;
+		}
+		img {
+			transition: all .5s ease;
+			display: block;
+			width: 100%;
+		}
+		.list-icon {
+			transition: all .5s ease;  
+			position :absolute;
+			bottom: -16px;
+			right: 0;
+			background-color: #fff;
+			box-shadow: 0px 10px 58.8px 1.2px rgba(0, 0, 0, 0.07);
+			padding: 25px 16px;
+			-webkit-transform-origin: center;
+		    transform-origin: center;
+		    -webkit-transform-style: preserve-3d;
+		    transform-style: preserve-3d;
+		    -webkit-transform: scaleX(0);
+		    transform: scaleX(0);
+		    @media (max-width: 767px) {
+	    		-webkit-transform: scaleX(1);
+				transform: scaleX(1);
+	    	}
+			ul {
+				margin: 0; 
+				padding: 0; 
+				list-style-type: none; 
+				.item {
+					&:not(:last-child) {
+						margin: 0 0 8px 0;   
+					}
+                    i {
+                    	display: inline-flex;
+                    	font-size: 16px; 
+                    	color: var(--heading);
+                    	&:hover {
+                    		color: var(--secondary);
+                    	} 
+                    }
+				}
+			}
+		}
+	}
+
+	.info {
+		transition: all .5s ease;
+		display: flex;
+		justify-content: space-between; 
+		background-color: #fff;
+		padding: 16px 0;
+		text-align: left; 
+		.name-job {
+            .name {
+            	transition: all .3s ease;
+				margin: 0; 
+				font-size: 24px;
+				color: var(--heading); 
+				line-height: 1.4; 
+				a {
+					transition: all .3s ease;
+					color: var(--heading);
+				}
+			}
+			.job {
+				transition: all .3s ease;
+				margin: 0; 
+				font-weight: 500; 
+				line-height: 1.4;
+			}
+		}
+
+		.share-button {
+			transition: all .5s ease;
+			width: 48px;
+			height: 48px;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			background-color: var(--primary);
+			i {
+                transition: all .3s ease;
+				color: #fff;  
+				-webkit-transition-delay: 0.1s;
+			    transition-delay: 0.1s;
+			    -webkit-transform: scale(1) rotateY(0deg);
+			    transform: scale(1) rotateY(0deg);
+			}
+		}
+	}
+}

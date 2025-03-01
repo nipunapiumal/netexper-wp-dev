@@ -1,0 +1,881 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ovatheme Project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-05 07:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2\n"
+"X-Domain: ova-project"
+
+#: inc/class-customize.php:63
+msgid "2 column"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:90
+msgid "2 Columns"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:91
+msgid "3 Column"
+msgstr ""
+
+#: inc/class-customize.php:64
+msgid "3 column"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:92
+msgid "4 Column"
+msgstr ""
+
+#: inc/class-customize.php:65
+msgid "4 column"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:738
+#: elementor/widgets/ova_project_slider2.php:578
+#: elementor/widgets/ova_project_slider3.php:562
+#: elementor/widgets/ova_project_slider4.php:619
+msgid "Active"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:29
+msgid "Add New"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:70 inc/class-ova-custom-post-type.php:71
+msgid "Add New Category Project"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:28
+msgid "Add New Project"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:75
+msgid "Add or remove items"
+msgstr ""
+
+#: admin/class-ova-metabox.php:69
+msgid "Add Social"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:146
+#: elementor/widgets/ova_project_slider2.php:144
+#: elementor/widgets/ova_project_slider3.php:140
+#: elementor/widgets/ova_project_slider4.php:140
+msgid "Additional Options"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:66
+msgid "All Category Project"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:27
+msgid "All Projects"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:129
+#: elementor/widgets/ova_project_slider.php:118
+#: elementor/widgets/ova_project_slider2.php:117
+#: elementor/widgets/ova_project_slider3.php:104
+#: elementor/widgets/ova_project_slider4.php:104
+msgid "Ascending"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:223
+#: elementor/widgets/ova_project_slider2.php:211
+#: elementor/widgets/ova_project_slider3.php:207
+#: elementor/widgets/ova_project_slider4.php:207
+msgid "Autoplay"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:237
+#: elementor/widgets/ova_project_slider2.php:225
+#: elementor/widgets/ova_project_slider3.php:221
+#: elementor/widgets/ova_project_slider4.php:221
+msgid "Autoplay Speed"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:860
+#: elementor/widgets/ova_project_slider.php:891
+#: elementor/widgets/ova_project_slider2.php:422
+#: elementor/widgets/ova_project_slider3.php:407
+#: elementor/widgets/ova_project_slider4.php:464
+#: elementor/widgets/ova_project_slider4.php:770
+#: elementor/widgets/ova_project_slider4.php:812
+msgid "Background Color"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider2.php:453
+#: elementor/widgets/ova_project_slider3.php:438
+#: elementor/widgets/ova_project_slider4.php:495
+msgid "Background Color Hover"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:428
+#: elementor/widgets/ova_project_slider.php:583
+#: elementor/widgets/ova_project_slider4.php:759
+#: elementor/widgets/ova_project_slider4.php:801
+msgid "Border Color"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:459
+#: elementor/widgets/ova_project_slider.php:614
+msgid "Border Color Hover"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:474
+#: elementor/widgets/ova_project_slider.php:629
+#: elementor/widgets/ova_project_slider.php:724
+#: elementor/widgets/ova_project_slider.php:792
+#: elementor/widgets/ova_project_slider.php:905
+#: elementor/widgets/ova_project_slider2.php:469
+#: elementor/widgets/ova_project_slider2.php:564
+#: elementor/widgets/ova_project_slider2.php:632
+#: elementor/widgets/ova_project_slider3.php:453
+#: elementor/widgets/ova_project_slider3.php:548
+#: elementor/widgets/ova_project_slider3.php:616
+#: elementor/widgets/ova_project_slider4.php:510
+#: elementor/widgets/ova_project_slider4.php:605
+#: elementor/widgets/ova_project_slider4.php:673
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider3.php:371
+#: elementor/widgets/ova_project_slider4.php:428
+msgid "Button"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:65
+msgid "Categories"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:63
+#: elementor/widgets/ova_project_slider.php:66
+#: elementor/widgets/ova_project_slider2.php:78
+#: elementor/widgets/ova_project_slider3.php:65
+#: elementor/widgets/ova_project_slider4.php:65
+msgid "Category"
+msgstr ""
+
+#: templates/single-project.php:60
+msgid "Category:"
+msgstr ""
+
+#: templates/single-project.php:204
+msgid "Checkout Our Similar Projects"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:76
+msgid "Choose from the most used"
+msgstr ""
+
+#: admin/class-ova-metabox.php:77
+msgid "Class icon social"
+msgstr ""
+
+#: admin/class-ova-metabox.php:43
+msgid "Clients"
+msgstr ""
+
+#: templates/single-project.php:49
+msgid "Clients:"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:286 elementor/widgets/ova_project.php:340
+#: elementor/widgets/ova_project.php:417
+#: elementor/widgets/ova_project_slider.php:444
+#: elementor/widgets/ova_project_slider.php:498
+#: elementor/widgets/ova_project_slider.php:572
+#: elementor/widgets/ova_project_slider.php:677
+#: elementor/widgets/ova_project_slider.php:745
+#: elementor/widgets/ova_project_slider.php:849
+#: elementor/widgets/ova_project_slider.php:880
+#: elementor/widgets/ova_project_slider2.php:283
+#: elementor/widgets/ova_project_slider2.php:337
+#: elementor/widgets/ova_project_slider2.php:411
+#: elementor/widgets/ova_project_slider2.php:517
+#: elementor/widgets/ova_project_slider2.php:585
+#: elementor/widgets/ova_project_slider3.php:279
+#: elementor/widgets/ova_project_slider3.php:333
+#: elementor/widgets/ova_project_slider3.php:396
+#: elementor/widgets/ova_project_slider3.php:501
+#: elementor/widgets/ova_project_slider3.php:569
+#: elementor/widgets/ova_project_slider4.php:293
+#: elementor/widgets/ova_project_slider4.php:336
+#: elementor/widgets/ova_project_slider4.php:390
+#: elementor/widgets/ova_project_slider4.php:453
+#: elementor/widgets/ova_project_slider4.php:558
+#: elementor/widgets/ova_project_slider4.php:626
+#: elementor/widgets/ova_project_slider4.php:748
+#: elementor/widgets/ova_project_slider4.php:790
+msgid "Color"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:297 elementor/widgets/ova_project.php:351
+#: elementor/widgets/ova_project.php:448
+#: elementor/widgets/ova_project_slider.php:455
+#: elementor/widgets/ova_project_slider.php:509
+#: elementor/widgets/ova_project_slider.php:603
+#: elementor/widgets/ova_project_slider2.php:294
+#: elementor/widgets/ova_project_slider2.php:348
+#: elementor/widgets/ova_project_slider2.php:442
+#: elementor/widgets/ova_project_slider3.php:290
+#: elementor/widgets/ova_project_slider3.php:344
+#: elementor/widgets/ova_project_slider3.php:427
+#: elementor/widgets/ova_project_slider4.php:347
+#: elementor/widgets/ova_project_slider4.php:401
+#: elementor/widgets/ova_project_slider4.php:484
+msgid "Color Hover"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:39 elementor/widgets/ova_project.php:202
+#: elementor/widgets/ova_project_slider.php:42
+#: elementor/widgets/ova_project_slider.php:360
+#: elementor/widgets/ova_project_slider2.php:41
+#: elementor/widgets/ova_project_slider3.php:41
+#: elementor/widgets/ova_project_slider4.php:41
+msgid "Content"
+msgstr ""
+
+#: admin/class-ova-metabox.php:90
+msgid "Custom Link"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:117
+#: elementor/widgets/ova_project_slider.php:106
+#: elementor/widgets/ova_project_slider2.php:105
+#: elementor/widgets/ova_project_slider3.php:92
+#: elementor/widgets/ova_project_slider4.php:92
+msgid "Custom Order"
+msgstr ""
+
+#: admin/class-ova-metabox.php:50 elementor/widgets/ova_project.php:115
+#: elementor/widgets/ova_project_slider.php:104
+#: elementor/widgets/ova_project_slider2.php:103
+#: elementor/widgets/ova_project_slider3.php:90
+#: elementor/widgets/ova_project_slider4.php:90
+msgid "Date"
+msgstr ""
+
+#: templates/single-project.php:83
+msgid "Date:"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:130
+#: elementor/widgets/ova_project_slider.php:119
+#: elementor/widgets/ova_project_slider2.php:118
+#: elementor/widgets/ova_project_slider3.php:105
+#: elementor/widgets/ova_project_slider4.php:105
+msgid "Descending"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:645
+#: elementor/widgets/ova_project_slider2.php:485
+#: elementor/widgets/ova_project_slider3.php:469
+#: elementor/widgets/ova_project_slider4.php:526
+msgid "Dots"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:72
+msgid "Edit Category Project"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:31
+msgid "Edit Project"
+msgstr ""
+
+#: inc/class-customize.php:96
+msgid "Footer Archive"
+msgstr ""
+
+#: inc/class-customize.php:130
+msgid "Footer Single"
+msgstr ""
+
+#: inc/class-customize.php:79
+msgid "Header Archive"
+msgstr ""
+
+#: inc/class-customize.php:113
+msgid "Header Single"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:706
+#: elementor/widgets/ova_project_slider.php:774
+#: elementor/widgets/ova_project_slider2.php:546
+#: elementor/widgets/ova_project_slider2.php:614
+#: elementor/widgets/ova_project_slider3.php:530
+#: elementor/widgets/ova_project_slider3.php:598
+#: elementor/widgets/ova_project_slider4.php:587
+#: elementor/widgets/ova_project_slider4.php:655
+msgid "Height"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:141
+#: elementor/widgets/ova_project_slider.php:130
+#: elementor/widgets/ova_project_slider2.php:129
+#: elementor/widgets/ova_project_slider3.php:125
+#: elementor/widgets/ova_project_slider4.php:125
+msgid "Hide"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:233 elementor/widgets/ova_project.php:441
+#: elementor/widgets/ova_project_slider.php:391
+#: elementor/widgets/ova_project_slider.php:596
+#: elementor/widgets/ova_project_slider.php:873
+#: elementor/widgets/ova_project_slider2.php:435
+#: elementor/widgets/ova_project_slider3.php:420
+#: elementor/widgets/ova_project_slider4.php:477
+#: elementor/widgets/ova_project_slider4.php:783
+msgid "Hover"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/ovatheme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/ovatheme/portfolio"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:378
+#: elementor/widgets/ova_project_slider.php:536
+#: elementor/widgets/ova_project_slider2.php:375
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:822
+#: elementor/widgets/ova_project_slider4.php:703
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:113
+#: elementor/widgets/ova_project_slider.php:102
+#: elementor/widgets/ova_project_slider2.php:101
+#: elementor/widgets/ova_project_slider3.php:88
+#: elementor/widgets/ova_project_slider4.php:88
+msgid "ID"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:154
+#: elementor/widgets/ova_project_slider.php:293
+msgid "Image"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:209
+#: elementor/widgets/ova_project_slider2.php:197
+#: elementor/widgets/ova_project_slider3.php:193
+#: elementor/widgets/ova_project_slider4.php:193
+msgid "Infinite Loop"
+msgstr ""
+
+#: admin/class-ova-metabox.php:99
+msgid "Insert Number"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:24
+msgid "Item Archives"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:25
+msgid "Item Attributes"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:174
+#: elementor/widgets/ova_project_slider2.php:162
+#: elementor/widgets/ova_project_slider3.php:158
+#: elementor/widgets/ova_project_slider4.php:158
+msgid "Item Number"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:166
+#: elementor/widgets/ova_project_slider2.php:154
+#: elementor/widgets/ova_project_slider3.php:150
+#: elementor/widgets/ova_project_slider4.php:150
+msgid "Item space between"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:81
+msgid "Items list"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:82
+msgid "Items list navigation"
+msgstr ""
+
+#: inc/class-customize.php:58
+msgid "Layout"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider3.php:115
+msgid "Learn More"
+msgstr ""
+
+#: admin/class-ova-metabox.php:84
+msgid "Link social"
+msgstr ""
+
+#: admin/class-ova-metabox.php:66
+msgid "List Social"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:656
+#: elementor/widgets/ova_project_slider2.php:496
+#: elementor/widgets/ova_project_slider3.php:480
+#: elementor/widgets/ova_project_slider4.php:304
+#: elementor/widgets/ova_project_slider4.php:537
+msgid "Margin"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:163
+#: elementor/widgets/ova_project_slider2.php:151
+#: elementor/widgets/ova_project_slider3.php:147
+#: elementor/widgets/ova_project_slider4.php:147
+msgid "Margin Right Items"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:811
+#: elementor/widgets/ova_project_slider4.php:692
+msgid "Nav Control"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:30
+msgid "New Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:69
+msgid "New Item Name"
+msgstr ""
+
+#: templates/single-project.php:159 templates/single-project.php:161
+msgid "Next"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:199
+#: elementor/widgets/ova_project_slider.php:214
+#: elementor/widgets/ova_project_slider.php:228
+#: elementor/widgets/ova_project_slider.php:265
+#: elementor/widgets/ova_project_slider.php:279
+#: elementor/widgets/ova_project_slider2.php:187
+#: elementor/widgets/ova_project_slider2.php:202
+#: elementor/widgets/ova_project_slider2.php:216
+#: elementor/widgets/ova_project_slider2.php:253
+#: elementor/widgets/ova_project_slider3.php:183
+#: elementor/widgets/ova_project_slider3.php:198
+#: elementor/widgets/ova_project_slider3.php:212
+#: elementor/widgets/ova_project_slider3.php:249
+#: elementor/widgets/ova_project_slider4.php:183
+#: elementor/widgets/ova_project_slider4.php:198
+#: elementor/widgets/ova_project_slider4.php:212
+#: elementor/widgets/ova_project_slider4.php:249
+#: elementor/widgets/ova_project_slider4.php:263
+msgid "No"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:80
+msgid "No items"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:214 elementor/widgets/ova_project.php:410
+#: elementor/widgets/ova_project_slider.php:372
+#: elementor/widgets/ova_project_slider.php:565
+#: elementor/widgets/ova_project_slider.php:670
+#: elementor/widgets/ova_project_slider.php:842
+#: elementor/widgets/ova_project_slider2.php:404
+#: elementor/widgets/ova_project_slider2.php:510
+#: elementor/widgets/ova_project_slider3.php:389
+#: elementor/widgets/ova_project_slider3.php:494
+#: elementor/widgets/ova_project_slider4.php:446
+#: elementor/widgets/ova_project_slider4.php:551
+#: elementor/widgets/ova_project_slider4.php:741
+msgid "Normal"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:79
+msgid "Not Found"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:35
+msgid "Not found"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:36
+msgid "Not found in Trash"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:86
+msgid "Number Column"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:176
+#: elementor/widgets/ova_project_slider2.php:164
+#: elementor/widgets/ova_project_slider3.php:160
+#: elementor/widgets/ova_project_slider4.php:160
+msgid "Number Item"
+msgstr ""
+
+#: inc/class-customize.php:41
+msgid "Number of posts per page"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:125
+#: elementor/widgets/ova_project_slider.php:114
+#: elementor/widgets/ova_project_slider2.php:113
+#: elementor/widgets/ova_project_slider3.php:100
+#: elementor/widgets/ova_project_slider4.php:100
+msgid "Order"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:109
+#: elementor/widgets/ova_project_slider.php:98
+#: elementor/widgets/ova_project_slider2.php:97
+#: elementor/widgets/ova_project_slider3.php:84
+#: elementor/widgets/ova_project_slider4.php:84
+msgid "OrderBy"
+msgstr ""
+
+#: templates/single-project.php:201
+msgid "Our Completed Projects"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ovatheme"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ovatheme Project"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:181 elementor/widgets/ova_project.php:190
+#: elementor/widgets/ova_project.php:222 elementor/widgets/ova_project.php:241
+#: elementor/widgets/ova_project_slider.php:320
+#: elementor/widgets/ova_project_slider.php:329
+#: elementor/widgets/ova_project_slider.php:380
+#: elementor/widgets/ova_project_slider.php:399
+msgid "Overlay"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:338
+#: elementor/widgets/ova_project_slider.php:348
+msgid "Overlay Hover"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:254 elementor/widgets/ova_project.php:308
+#: elementor/widgets/ova_project.php:362
+#: elementor/widgets/ova_project_slider.php:412
+#: elementor/widgets/ova_project_slider.php:466
+#: elementor/widgets/ova_project_slider.php:520
+#: elementor/widgets/ova_project_slider2.php:305
+#: elementor/widgets/ova_project_slider2.php:359
+#: elementor/widgets/ova_project_slider3.php:301
+#: elementor/widgets/ova_project_slider3.php:355
+#: elementor/widgets/ova_project_slider4.php:358
+#: elementor/widgets/ova_project_slider4.php:412
+msgid "Padding"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:67
+msgid "Parent Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:26 inc/class-ova-custom-post-type.php:68
+msgid "Parent Item:"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:194
+#: elementor/widgets/ova_project_slider2.php:182
+#: elementor/widgets/ova_project_slider3.php:178
+#: elementor/widgets/ova_project_slider4.php:178
+msgid "Pause on Hover"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:77
+msgid "Popular Items"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:40
+msgid "Post Type Description"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:63
+msgctxt "Post Type General Name"
+msgid "Categories Project"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:20
+msgctxt "Post Type General Name"
+msgid "Projects"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:64
+msgctxt "Post Type Singular Name"
+msgid "Category Project"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:21
+msgctxt "Post Type Singular Name"
+msgid "Project"
+msgstr ""
+
+#: templates/single-project.php:142 templates/single-project.php:147
+msgid "Previous"
+msgstr ""
+
+#. Description of the plugin
+#: elementor/class-ova-register-elementor.php:56 inc/class-customize.php:26
+#: inc/class-ova-custom-post-type.php:23
+msgid "Project"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider4.php:115
+msgid "Project Details"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:19
+msgid "Project Grid"
+msgstr ""
+
+#: admin/class-ova-metabox.php:26
+msgid "Project settings"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:19
+msgid "Project Slider"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider2.php:18
+msgid "Project Slider 2"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider3.php:18
+msgid "Project Slider 3"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider4.php:18
+msgid "Project Slider 4"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:95
+msgctxt "Project Slug"
+msgid "cat_project"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:22
+msgid "Projects"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:116
+#: elementor/widgets/ova_project_slider.php:105
+#: elementor/widgets/ova_project_slider2.php:104
+#: elementor/widgets/ova_project_slider3.php:91
+#: elementor/widgets/ova_project_slider4.php:91
+msgid "Random"
+msgstr ""
+
+#: admin/class-ova-metabox.php:93
+msgid "Redirect to custom link instead of detail project"
+msgstr ""
+
+#: admin/class-ova-metabox.php:70
+msgid "Remove"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:34
+msgid "Search Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:78
+msgid "Search Items"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:74
+msgid "Separate items with commas"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:186
+#: elementor/widgets/ova_project_slider2.php:174
+#: elementor/widgets/ova_project_slider3.php:170
+#: elementor/widgets/ova_project_slider4.php:170
+msgid "Set how many slides are scrolled per swipe."
+msgstr ""
+
+#: elementor/widgets/ova_project.php:140
+#: elementor/widgets/ova_project_slider.php:129
+#: elementor/widgets/ova_project_slider2.php:128
+#: elementor/widgets/ova_project_slider3.php:124
+#: elementor/widgets/ova_project_slider4.php:124
+msgid "Show"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:260
+#: elementor/widgets/ova_project_slider2.php:248
+#: elementor/widgets/ova_project_slider3.php:244
+#: elementor/widgets/ova_project_slider4.php:244
+msgid "Show Dots"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:138
+#: elementor/widgets/ova_project_slider.php:127
+#: elementor/widgets/ova_project_slider2.php:126
+#: elementor/widgets/ova_project_slider3.php:122
+#: elementor/widgets/ova_project_slider4.php:122
+msgid "Show Link to Detail"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:274
+#: elementor/widgets/ova_project_slider4.php:258
+msgid "Show Nav"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:389
+#: elementor/widgets/ova_project_slider.php:544
+#: elementor/widgets/ova_project_slider2.php:383
+msgid "Size"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:184
+#: elementor/widgets/ova_project_slider2.php:172
+#: elementor/widgets/ova_project_slider3.php:168
+#: elementor/widgets/ova_project_slider4.php:168
+msgid "Slides to Scroll"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:251
+#: elementor/widgets/ova_project_slider2.php:239
+#: elementor/widgets/ova_project_slider3.php:235
+#: elementor/widgets/ova_project_slider4.php:235
+msgid "Smart Speed"
+msgstr ""
+
+#: admin/class-ova-metabox.php:68
+msgid "Social"
+msgstr ""
+
+#: admin/class-ova-metabox.php:97
+msgid "Sort Order"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider4.php:721
+msgid "Space between"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:153
+msgid "Stage Padding"
+msgstr ""
+
+#: admin/class-ova-metabox.php:36 elementor/widgets/ova_project.php:324
+#: elementor/widgets/ova_project_slider.php:482
+#: elementor/widgets/ova_project_slider2.php:321
+#: elementor/widgets/ova_project_slider3.php:317
+#: elementor/widgets/ova_project_slider4.php:374
+msgid "Sub Title"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:73
+#: elementor/widgets/ova_project_slider.php:76
+#: elementor/widgets/ova_project_slider2.php:48
+msgid "Template"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:77
+#: elementor/widgets/ova_project_slider.php:80
+#: elementor/widgets/ova_project_slider2.php:52
+msgid "Template 1"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:78
+#: elementor/widgets/ova_project_slider.php:81
+#: elementor/widgets/ova_project_slider2.php:53
+msgid "Template 2"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider3.php:113
+#: elementor/widgets/ova_project_slider4.php:113
+msgid "Text Button"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider4.php:277
+msgid "Text Number"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:114 elementor/widgets/ova_project.php:270
+#: elementor/widgets/ova_project_slider.php:103
+#: elementor/widgets/ova_project_slider.php:428
+#: elementor/widgets/ova_project_slider2.php:102
+#: elementor/widgets/ova_project_slider2.php:267
+#: elementor/widgets/ova_project_slider3.php:89
+#: elementor/widgets/ova_project_slider3.php:263
+#: elementor/widgets/ova_project_slider4.php:89
+#: elementor/widgets/ova_project_slider4.php:320
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/ova_project.php:100
+#: elementor/widgets/ova_project_slider.php:89
+#: elementor/widgets/ova_project_slider2.php:88
+#: elementor/widgets/ova_project_slider3.php:75
+#: elementor/widgets/ova_project_slider4.php:75
+msgid "Total"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:52
+msgctxt "URL slug"
+msgid "project"
+msgstr ""
+
+#: admin/class-ova-metabox.php:57
+msgid "Value"
+msgstr ""
+
+#: templates/single-project.php:94
+msgid "Value:"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:32 inc/class-ova-custom-post-type.php:73
+msgid "View Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:33
+msgid "View Items"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:688
+#: elementor/widgets/ova_project_slider.php:756
+#: elementor/widgets/ova_project_slider2.php:528
+#: elementor/widgets/ova_project_slider2.php:596
+#: elementor/widgets/ova_project_slider3.php:512
+#: elementor/widgets/ova_project_slider3.php:580
+#: elementor/widgets/ova_project_slider4.php:569
+#: elementor/widgets/ova_project_slider4.php:637
+msgid "Width"
+msgstr ""
+
+#: elementor/widgets/ova_project_slider.php:198
+#: elementor/widgets/ova_project_slider.php:213
+#: elementor/widgets/ova_project_slider.php:227
+#: elementor/widgets/ova_project_slider.php:264
+#: elementor/widgets/ova_project_slider.php:278
+#: elementor/widgets/ova_project_slider2.php:186
+#: elementor/widgets/ova_project_slider2.php:201
+#: elementor/widgets/ova_project_slider2.php:215
+#: elementor/widgets/ova_project_slider2.php:252
+#: elementor/widgets/ova_project_slider3.php:182
+#: elementor/widgets/ova_project_slider3.php:197
+#: elementor/widgets/ova_project_slider3.php:211
+#: elementor/widgets/ova_project_slider3.php:248
+#: elementor/widgets/ova_project_slider4.php:182
+#: elementor/widgets/ova_project_slider4.php:197
+#: elementor/widgets/ova_project_slider4.php:211
+#: elementor/widgets/ova_project_slider4.php:248
+#: elementor/widgets/ova_project_slider4.php:262
+msgid "Yes"
+msgstr ""

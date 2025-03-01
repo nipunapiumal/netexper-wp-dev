@@ -1,0 +1,67 @@
+.ova-team-slider{
+
+	.owl-carousel{
+		text-align: center;
+		&.template1 {
+			.owl-item {
+				padding: 10px 25px 0 0;
+			}
+		}
+
+		.owl-dots{
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			margin-top: 30px; 
+
+			button{
+				width: 10px;
+				height: 10px;
+				background-color: #d9d9d9;
+				border-radius: 50%;
+				margin: 0px 3px;
+				&.active{
+					background-color: var(--secondary);
+				}
+			}
+		}
+
+		.owl-nav{
+			button{
+				transition: all .3s ease;
+				position: absolute;
+				top: -90px;
+				right: 13.5%;
+				display: inline-flex;
+			    justify-content: center;
+			    align-items: center;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;	
+			    i{
+			    	transition: all .3s ease; 
+			    	display: inline-flex;
+			    	color: var(--secondary);
+			    }
+
+			    &.owl-next, &.owl-prev {
+                    border: 1px solid var(--secondary);
+			    }
+
+				&.owl-prev{
+					right: calc(13.5% + 48px);
+				}
+
+				&:hover{
+					transition: all .3s ease; 
+					background-color: var(--secondary); 
+					i{
+						transition: all .3s ease; 
+						color: #fff;
+					}
+				}
+			}
+		}	
+	}
+}

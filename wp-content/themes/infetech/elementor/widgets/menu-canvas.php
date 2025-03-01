@@ -3,7 +3,6 @@
 use Elementor\Widget_Base;
 use Elementor\Controls_Manager;
 
-
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 class Infetech_Elementor_Canvas_Menu extends Widget_Base {
@@ -55,7 +54,6 @@ class Infetech_Elementor_Canvas_Menu extends Widget_Base {
 					'type' => Controls_Manager::SELECT,
 					'options' => $list_menu,
 					'default' => '',
-					'prefix_class' => 'elementor-view-',
 				]
 			);
 
@@ -95,19 +93,17 @@ class Infetech_Elementor_Canvas_Menu extends Widget_Base {
 			$this->add_control(
 				'btn_color',
 				[
-					'label' => esc_html__( 'Button', 'infetech' ),
-					'type' => Controls_Manager::COLOR,
-					'default' => '',
+					'label' 	=> esc_html__( 'Button', 'infetech' ),
+					'type' 		=> Controls_Manager::COLOR,
+					'default' 	=> '',
 					'selectors' => [
 						'{{WRAPPER}} .menu-toggle:before' => 'background-color: {{VALUE}};',
 						'{{WRAPPER}} .menu-toggle span:before' => 'background-color: {{VALUE}};',
 						'{{WRAPPER}} .menu-toggle:after' => 'background-color: {{VALUE}};',
 					],
-					'scheme' => [
-						'type' => \Elementor\Core\Schemes\Color::get_type(),
-						'value' => \Elementor\Core\Schemes\Color::COLOR_3,
-					],
-					
+					'global' 	=> [
+						'default' => \Elementor\Core\Kits\Documents\Tabs\Global_Colors::COLOR_TEXT
+					]
 				]
 			);
 
@@ -115,15 +111,14 @@ class Infetech_Elementor_Canvas_Menu extends Widget_Base {
 			$this->add_control(
 				'bg_color',
 				[
-					'label' => esc_html__( 'Menu Background', 'infetech' ),
-					'type' => Controls_Manager::COLOR,
-					'default' => '',
+					'label' 	=> esc_html__( 'Menu Background', 'infetech' ),
+					'type' 		=> Controls_Manager::COLOR,
+					'default' 	=> '',
 					'selectors' => [
 						'{{WRAPPER}} .container-menu' => 'background-color: {{VALUE}};',
 					],
-					'scheme' => [
-						'type' => \Elementor\Core\Schemes\Color::get_type(),
-						'value' => \Elementor\Core\Schemes\Color::COLOR_3,
+					'global' 	=> [
+						'default' => \Elementor\Core\Kits\Documents\Tabs\Global_Colors::COLOR_TEXT
 					],
 					'separator' => 'before'
 					
@@ -134,8 +129,10 @@ class Infetech_Elementor_Canvas_Menu extends Widget_Base {
 			$this->add_group_control(
 				\Elementor\Group_Control_Typography::get_type(),
 				[
-					'name' => 'typography',
-					'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_3,
+					'name' 		=> 'typography',
+					'global' 	=> [
+						'default' => \Elementor\Core\Kits\Documents\Tabs\Global_Typography::TYPOGRAPHY_TEXT,
+					],
 					'selector'	=> '{{WRAPPER}} ul li a'
 				]
 			);
@@ -156,17 +153,15 @@ class Infetech_Elementor_Canvas_Menu extends Widget_Base {
 					$this->add_control(
 						'text_color',
 						[
-							'label' => esc_html__( 'Menu Color', 'infetech' ),
-							'type' => Controls_Manager::COLOR,
-							'default' => '',
+							'label' 	=> esc_html__( 'Menu Color', 'infetech' ),
+							'type' 		=> Controls_Manager::COLOR,
+							'default' 	=> '',
 							'selectors' => [
 								'{{WRAPPER}} ul li a' => 'color: {{VALUE}};',
 							],
-							'scheme' => [
-								'type' => \Elementor\Core\Schemes\Color::get_type(),
-								'value' => \Elementor\Core\Schemes\Color::COLOR_3,
-							],
-							
+							'global' 	=> [
+								'default' => \Elementor\Core\Kits\Documents\Tabs\Global_Colors::COLOR_TEXT
+							]
 						]
 					);
 

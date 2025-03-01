@@ -51,7 +51,6 @@ class Infetech_Elementor_Menu_Nav extends Widget_Base {
 					'type' => Controls_Manager::SELECT,
 					'options' => $list_menu,
 					'default' => '',
-					'prefix_class' => 'elementor-view-',
 				]
 			);
 				
@@ -71,8 +70,10 @@ class Infetech_Elementor_Menu_Nav extends Widget_Base {
 			$this->add_group_control(
 				\Elementor\Group_Control_Typography::get_type(),
 				[
-					'name' => 'menu_typography',
-					'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_3,
+					'name' 		=> 'menu_typography',
+					'global' 	=> [
+						'default' => \Elementor\Core\Kits\Documents\Tabs\Global_Typography::TYPOGRAPHY_TEXT,
+					],
 					'selector'	=> '{{WRAPPER}} ul li a'
 				]
 			);
@@ -243,8 +244,10 @@ class Infetech_Elementor_Menu_Nav extends Widget_Base {
 			$this->add_group_control(
 				\Elementor\Group_Control_Typography::get_type(),
 				[
-					'name' => 'submenu_typography',
-					'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_3,
+					'name' 		=> 'submenu_typography',
+					'global' 	=> [
+						'default' => \Elementor\Core\Kits\Documents\Tabs\Global_Typography::TYPOGRAPHY_TEXT,
+					],
 					'selector'	=> '{{WRAPPER}} ul.sub-menu li a'
 				]
 			);
@@ -376,16 +379,22 @@ class Infetech_Elementor_Menu_Nav extends Widget_Base {
 		?>
 
 		<nav class="main-navigation">
-            <button class="menu-toggle">
+            <button class="menu-toggle" aria-label="<?php esc_attr_e( 'menu toggle', 'infetech' ) ?>">
             	<span>
             		<?php echo esc_html__( 'Menu', 'infetech' ); ?>
             	</span>
             </button>
-			<?php
+			<?php $fallback_cb = $walker = '';
+			 	if ( class_exists('Ova_Megamenu_Walker_Nav_Menu') ) {
+			      	$fallback_cb = 'Ova_Megamenu_Walker_Nav_Menu::fallback';
+			      	$walker = new Ova_Megamenu_Walker_Nav_Menu;
+			    }
 				wp_nav_menu( [
 					'theme_location'  => $settings['menu_slug'],
 					'container_class' => 'primary-navigation',
-					'menu'              => $settings['menu_slug'],
+					'menu'            => $settings['menu_slug'],
+					'fallback_cb'       => $fallback_cb,
+	                'walker'            => $walker
 				] );
 			?>
         </nav>
